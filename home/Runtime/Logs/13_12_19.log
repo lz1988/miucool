@@ -1,0 +1,915 @@
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ app_begin ] --START--
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.007615s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.008085s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | SQL: SHOW COLUMNS FROM `indexmenu` [ RunTime:0.042284s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | SQL: SELECT * FROM `indexmenu` WHERE isdel=0 ORDER BY sort  [ RunTime:0.001030s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run LocationTemplate Behavior [ RunTime:0.002755s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.002862s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run ParseTemplate Behavior [ RunTime:0.026065s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.026173s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run ContentReplace Behavior [ RunTime:0.001351s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run TokenBuild Behavior [ RunTime:0.001212s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001089s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run ShowRuntime Behavior [ RunTime:0.001277s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005098s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | SQL: SHOW COLUMNS FROM `news` [ RunTime:0.003001s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | SQL: SELECT `id`,`newtitle`,`count` FROM `news` ORDER BY count LIMIT 10   [ RunTime:0.001179s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run LocationTemplate Behavior [ RunTime:0.001367s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_template ] --END-- [ RunTime:-0.036353s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run ParseTemplate Behavior [ RunTime:0.004854s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.011646s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run ContentReplace Behavior [ RunTime:0.000106s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run TokenBuild Behavior [ RunTime:0.000069s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000119s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.011495s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run LocationTemplate Behavior [ RunTime:0.001214s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_template ] --END-- [ RunTime:-0.043396s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run ParseTemplate Behavior [ RunTime:0.002972s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.018478s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run ContentReplace Behavior [ RunTime:0.000088s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run TokenBuild Behavior [ RunTime:0.000071s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000118s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.016458s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | SQL: SELECT `id`,`newtitle`,`fstcreate` FROM `news` ORDER BY id LIMIT 10   [ RunTime:0.000398s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | SQL: SELECT `id`,`newtitle`,`fstcreate`,`count` FROM `news` ORDER BY count,id LIMIT 10   [ RunTime:0.000432s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | SQL: SELECT news.id,count(comment.type) as counts,news.newtitle FROM `news` left join comment on comment.type=news.id WHERE comment.isdel=1 GROUP BY comment.type ORDER BY counts desc  [ RunTime:0.000443s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run LocationTemplate Behavior [ RunTime:0.001761s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_template ] --END-- [ RunTime:-0.050531s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run ParseTemplate Behavior [ RunTime:0.008442s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.026195s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run ContentReplace Behavior [ RunTime:0.000097s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run TokenBuild Behavior [ RunTime:0.000067s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000022s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000123s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.029625s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | SQL: SHOW COLUMNS FROM `newtype` [ RunTime:0.002560s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | SQL: SELECT * FROM `newtype` WHERE isdel=0   [ RunTime:0.001120s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run LocationTemplate Behavior [ RunTime:0.002458s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_template ] --END-- [ RunTime:-0.065879s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run ParseTemplate Behavior [ RunTime:0.004522s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.042271s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run ContentReplace Behavior [ RunTime:0.000082s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run TokenBuild Behavior [ RunTime:0.000070s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000117s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.041788s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | SQL: SELECT COUNT(*) AS tp_count FROM `news` join newtype on newtype.id=news.newtype LIMIT 1   [ RunTime:0.000656s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | SQL: SELECT news.id,news.newtitle,news.author,news.fstcreate,news.newcontent,`count`,`typename`,`entypename`,`newimg` FROM `news` join newtype on newtype.id=news.newtype ORDER BY id desc  LIMIT 0,32   [ RunTime:0.002276s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run LocationTemplate Behavior [ RunTime:0.001417s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_template ] --END-- [ RunTime:-0.077759s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run ParseTemplate Behavior [ RunTime:0.011000s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.053120s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run ContentReplace Behavior [ RunTime:0.000299s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run TokenBuild Behavior [ RunTime:0.000070s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000022s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000153s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.059138s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run LocationTemplate Behavior [ RunTime:0.001196s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_template ] --END-- [ RunTime:-0.091282s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run ParseTemplate Behavior [ RunTime:0.004811s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.066348s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run ContentReplace Behavior [ RunTime:0.000097s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run TokenBuild Behavior [ RunTime:0.000071s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000122s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.066153s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000902s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_template ] --END-- [ RunTime:-0.098079s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run ParseTemplate Behavior [ RunTime:0.003868s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.072847s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run ContentReplace Behavior [ RunTime:0.000451s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run TokenBuild Behavior [ RunTime:0.000072s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000268s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.071840s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_end ] --START--
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001480s ]
+[ 2013-12-19T10:09:18+08:00 ] /miucool/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001568s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ route_check ] --START--
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run CheckRoute Behavior [ RunTime:0.005458s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ route_check ] --END-- [ RunTime:0.005664s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ app_begin ] --START--
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run ReadHtmlCache Behavior [ RunTime:0.004193s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ app_begin ] --END-- [ RunTime:0.004408s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | SQL: SHOW COLUMNS FROM `indexmenu` [ RunTime:0.006278s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | SQL: SELECT * FROM `indexmenu` WHERE isdel=0 ORDER BY sort  [ RunTime:0.002524s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run LocationTemplate Behavior [ RunTime:0.005934s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_template ] --END-- [ RunTime:0.006158s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run ParseTemplate Behavior [ RunTime:0.038439s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_parse ] --END-- [ RunTime:0.038636s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run ContentReplace Behavior [ RunTime:0.002352s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run TokenBuild Behavior [ RunTime:0.001735s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001685s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run ShowRuntime Behavior [ RunTime:0.002831s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_filter ] --END-- [ RunTime:0.009021s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | SQL: SHOW COLUMNS FROM `news` [ RunTime:0.004892s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | SQL: SELECT `id`,`newtitle`,`count` FROM `news` ORDER BY count LIMIT 10   [ RunTime:0.001692s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001722s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.056235s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run ParseTemplate Behavior [ RunTime:0.007949s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.019905s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run ContentReplace Behavior [ RunTime:0.000159s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run TokenBuild Behavior [ RunTime:0.000117s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000034s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000205s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.019007s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001869s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.067822s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run ParseTemplate Behavior [ RunTime:0.004719s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.031041s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run ContentReplace Behavior [ RunTime:0.000204s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run TokenBuild Behavior [ RunTime:0.000114s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000035s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000194s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.026869s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | SQL: SELECT `id`,`newtitle`,`fstcreate` FROM `news` ORDER BY id LIMIT 10   [ RunTime:0.000740s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | SQL: SELECT `id`,`newtitle`,`fstcreate`,`count` FROM `news` ORDER BY count,id LIMIT 10   [ RunTime:0.000860s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | SQL: SELECT news.id,count(comment.type) as counts,news.newtitle FROM `news` left join comment on comment.type=news.id WHERE comment.isdel=1 GROUP BY comment.type ORDER BY counts desc  [ RunTime:0.000566s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001787s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.079494s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run ParseTemplate Behavior [ RunTime:0.014469s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.042650s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run ContentReplace Behavior [ RunTime:0.000240s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run TokenBuild Behavior [ RunTime:0.000117s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000034s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000200s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.048225s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | SQL: SHOW COLUMNS FROM `newtype` [ RunTime:0.003413s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | SQL: SELECT * FROM `newtype` WHERE isdel=0   [ RunTime:0.001188s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run LocationTemplate Behavior [ RunTime:0.002460s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.102754s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run ParseTemplate Behavior [ RunTime:0.006419s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.066656s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run ContentReplace Behavior [ RunTime:0.000140s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run TokenBuild Behavior [ RunTime:0.000183s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000073s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000205s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.064192s ]
+[ 2013-12-19T10:09:20+08:00 ] /miucool/article/delicacies.html | SQL: SELECT COUNT(*) AS tp_count FROM `news` join newtype on newtype.id=news.newtype WHERE ( `entypename` = 'delicacies' ) LIMIT 1   [ RunTime:0.001113s ]
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | SQL: SELECT news.id,news.newtitle,news.author,news.fstcreate,news.newcontent,`count`,`typename`,`entypename`,`newimg` FROM `news` join newtype on newtype.id=news.newtype WHERE ( `entypename` = 'delicacies' ) ORDER BY id desc  LIMIT 0,10   [ RunTime:0.001485s ]
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Run LocationTemplate Behavior [ RunTime:0.002995s ]
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.117611s ]
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Run ParseTemplate Behavior [ RunTime:0.067492s ]
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.082049s ]
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Run ContentReplace Behavior [ RunTime:0.000217s ]
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Run TokenBuild Behavior [ RunTime:0.000119s ]
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000034s ]
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000213s ]
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.140674s ]
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001782s ]
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.189553s ]
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Run ParseTemplate Behavior [ RunTime:0.006915s ]
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.152680s ]
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Run ContentReplace Behavior [ RunTime:0.000159s ]
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Run TokenBuild Behavior [ RunTime:0.000115s ]
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000035s ]
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000205s ]
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.150747s ]
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001746s ]
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.199605s ]
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Run ParseTemplate Behavior [ RunTime:0.007545s ]
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.162774s ]
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Run ContentReplace Behavior [ RunTime:0.000384s ]
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Run TokenBuild Behavior [ RunTime:0.000117s ]
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000035s ]
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000280s ]
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.161468s ]
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_end ] --START--
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Run ShowPageTrace Behavior [ RunTime:0.002335s ]
+[ 2013-12-19T10:09:21+08:00 ] /miucool/article/delicacies.html | INFO: Tag[ view_end ] --END-- [ RunTime:0.002491s ]
+[ 2013-12-19T10:09:22+08:00 ] /miucool/article/tour.html | INFO: Tag[ route_check ] --START--
+[ 2013-12-19T10:09:22+08:00 ] /miucool/article/tour.html | INFO: Run CheckRoute Behavior [ RunTime:0.002533s ]
+[ 2013-12-19T10:09:22+08:00 ] /miucool/article/tour.html | INFO: Tag[ route_check ] --END-- [ RunTime:0.002705s ]
+[ 2013-12-19T10:09:22+08:00 ] /miucool/article/tour.html | INFO: Tag[ app_begin ] --START--
+[ 2013-12-19T10:09:22+08:00 ] /miucool/article/tour.html | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002523s ]
+[ 2013-12-19T10:09:22+08:00 ] /miucool/article/tour.html | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002644s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | SQL: SHOW COLUMNS FROM `indexmenu` [ RunTime:0.003364s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | SQL: SELECT * FROM `indexmenu` WHERE isdel=0 ORDER BY sort  [ RunTime:0.000973s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run LocationTemplate Behavior [ RunTime:0.003598s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_template ] --END-- [ RunTime:0.003730s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run ParseTemplate Behavior [ RunTime:0.032000s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_parse ] --END-- [ RunTime:0.032313s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run ContentReplace Behavior [ RunTime:0.001613s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run TokenBuild Behavior [ RunTime:0.001506s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001256s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run ShowRuntime Behavior [ RunTime:0.002058s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006854s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | SQL: SHOW COLUMNS FROM `news` [ RunTime:0.002994s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | SQL: SELECT `id`,`newtitle`,`count` FROM `news` ORDER BY count LIMIT 10   [ RunTime:0.002264s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001714s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.046094s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run ParseTemplate Behavior [ RunTime:0.005673s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.015529s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run ContentReplace Behavior [ RunTime:0.000099s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run TokenBuild Behavior [ RunTime:0.000070s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000119s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.013913s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001719s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.054340s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run ParseTemplate Behavior [ RunTime:0.002298s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.023706s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run ContentReplace Behavior [ RunTime:0.000080s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run TokenBuild Behavior [ RunTime:0.000068s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000115s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.018729s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | SQL: SELECT `id`,`newtitle`,`fstcreate` FROM `news` ORDER BY id LIMIT 10   [ RunTime:0.000540s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | SQL: SELECT `id`,`newtitle`,`fstcreate`,`count` FROM `news` ORDER BY count,id LIMIT 10   [ RunTime:0.000915s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | SQL: SELECT news.id,count(comment.type) as counts,news.newtitle FROM `news` left join comment on comment.type=news.id WHERE comment.isdel=1 GROUP BY comment.type ORDER BY counts desc  [ RunTime:0.000592s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run LocationTemplate Behavior [ RunTime:0.002321s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.062792s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run ParseTemplate Behavior [ RunTime:0.009047s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.032838s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run ContentReplace Behavior [ RunTime:0.000104s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run TokenBuild Behavior [ RunTime:0.000070s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000022s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000120s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.034667s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | SQL: SHOW COLUMNS FROM `newtype` [ RunTime:0.002860s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | SQL: SELECT * FROM `newtype` WHERE isdel=0   [ RunTime:0.001263s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001695s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.080072s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run ParseTemplate Behavior [ RunTime:0.006089s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.049489s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run ContentReplace Behavior [ RunTime:0.000089s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run TokenBuild Behavior [ RunTime:0.000070s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000118s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.048312s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | SQL: SELECT COUNT(*) AS tp_count FROM `news` join newtype on newtype.id=news.newtype WHERE ( `entypename` = 'tour' ) LIMIT 1   [ RunTime:0.000859s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | SQL: SELECT news.id,news.newtitle,news.author,news.fstcreate,news.newcontent,`count`,`typename`,`entypename`,`newimg` FROM `news` join newtype on newtype.id=news.newtype WHERE ( `entypename` = 'tour' ) ORDER BY id desc  LIMIT 0,10   [ RunTime:0.001529s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001228s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.092570s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run ParseTemplate Behavior [ RunTime:0.085967s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.061436s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run ContentReplace Behavior [ RunTime:0.000259s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run TokenBuild Behavior [ RunTime:0.000116s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000039s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000227s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.140167s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001724s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.181084s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run ParseTemplate Behavior [ RunTime:0.004582s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.150521s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run ContentReplace Behavior [ RunTime:0.000094s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run TokenBuild Behavior [ RunTime:0.000070s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000120s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.147825s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run LocationTemplate Behavior [ RunTime:0.000894s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.188271s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run ParseTemplate Behavior [ RunTime:0.005216s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.156790s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run ContentReplace Behavior [ RunTime:0.000243s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run TokenBuild Behavior [ RunTime:0.000070s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000020s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000147s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.154705s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_end ] --START--
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Run ShowPageTrace Behavior [ RunTime:0.001724s ]
+[ 2013-12-19T10:09:23+08:00 ] /miucool/article/tour.html | INFO: Tag[ view_end ] --END-- [ RunTime:0.001848s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ route_check ] --START--
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run CheckRoute Behavior [ RunTime:0.003796s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ route_check ] --END-- [ RunTime:0.003977s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ app_begin ] --START--
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002296s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002446s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | SQL: SHOW COLUMNS FROM `indexmenu` [ RunTime:0.003419s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | SQL: SELECT * FROM `indexmenu` WHERE isdel=0 ORDER BY sort  [ RunTime:0.001323s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run LocationTemplate Behavior [ RunTime:0.003641s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --END-- [ RunTime:0.003793s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run ParseTemplate Behavior [ RunTime:0.035218s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --END-- [ RunTime:0.035377s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run ContentReplace Behavior [ RunTime:0.002366s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run TokenBuild Behavior [ RunTime:0.001749s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001627s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run ShowRuntime Behavior [ RunTime:0.002287s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --END-- [ RunTime:0.008435s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | SQL: SHOW COLUMNS FROM `news` [ RunTime:0.004091s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | SQL: SELECT `id`,`newtitle`,`count` FROM `news` ORDER BY count LIMIT 10   [ RunTime:0.001402s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001725s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.050666s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run ParseTemplate Behavior [ RunTime:0.007296s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.017118s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run ContentReplace Behavior [ RunTime:0.000157s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run TokenBuild Behavior [ RunTime:0.000115s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000034s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000203s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.016120s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run LocationTemplate Behavior [ RunTime:0.002578s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.060981s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run ParseTemplate Behavior [ RunTime:0.004012s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.028342s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run ContentReplace Behavior [ RunTime:0.000174s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run TokenBuild Behavior [ RunTime:0.000132s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000036s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000203s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.024081s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | SQL: SELECT `id`,`newtitle`,`fstcreate` FROM `news` ORDER BY id LIMIT 10   [ RunTime:0.000626s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | SQL: SELECT `id`,`newtitle`,`fstcreate`,`count` FROM `news` ORDER BY count,id LIMIT 10   [ RunTime:0.000910s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | SQL: SELECT news.id,count(comment.type) as counts,news.newtitle FROM `news` left join comment on comment.type=news.id WHERE comment.isdel=1 GROUP BY comment.type ORDER BY counts desc  [ RunTime:0.000735s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run LocationTemplate Behavior [ RunTime:0.002471s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.072924s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run ParseTemplate Behavior [ RunTime:0.014272s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.040169s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run ContentReplace Behavior [ RunTime:0.000150s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run TokenBuild Behavior [ RunTime:0.000115s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000034s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000202s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.046137s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | SQL: SHOW COLUMNS FROM `newtype` [ RunTime:0.003507s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | SQL: SELECT * FROM `newtype` WHERE isdel=0   [ RunTime:0.001556s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001687s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.096974s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run ParseTemplate Behavior [ RunTime:0.007813s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.063383s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run ContentReplace Behavior [ RunTime:0.000144s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run TokenBuild Behavior [ RunTime:0.000115s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000035s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000195s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.062921s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | SQL: SELECT COUNT(*) AS tp_count FROM `news` join newtype on newtype.id=news.newtype LIMIT 1   [ RunTime:0.000921s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | SQL: SELECT news.id,news.newtitle,news.author,news.fstcreate,news.newcontent,`count`,`typename`,`entypename`,`newimg` FROM `news` join newtype on newtype.id=news.newtype ORDER BY id desc  LIMIT 0,32   [ RunTime:0.003745s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001819s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.114425s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run ParseTemplate Behavior [ RunTime:0.019191s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.081032s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run ContentReplace Behavior [ RunTime:0.001202s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run TokenBuild Behavior [ RunTime:0.000135s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000037s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000337s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.091945s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001719s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.138120s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run ParseTemplate Behavior [ RunTime:0.006490s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.104554s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run ContentReplace Behavior [ RunTime:0.000154s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run TokenBuild Behavior [ RunTime:0.000142s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000035s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000320s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.102744s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run LocationTemplate Behavior [ RunTime:0.002373s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.148354s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run ParseTemplate Behavior [ RunTime:0.006922s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.115503s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run ContentReplace Behavior [ RunTime:0.000606s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run TokenBuild Behavior [ RunTime:0.000125s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000036s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000328s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.114180s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_end ] --START--
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Run ShowPageTrace Behavior [ RunTime:0.002004s ]
+[ 2013-12-19T10:09:24+08:00 ] /miucool/index.html | INFO: Tag[ view_end ] --END-- [ RunTime:0.002125s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ route_check ] --START--
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run CheckRoute Behavior [ RunTime:0.002393s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ route_check ] --END-- [ RunTime:0.002542s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ app_begin ] --START--
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002507s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002604s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | SQL: SHOW COLUMNS FROM `indexmenu` [ RunTime:0.002568s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | SQL: SELECT * FROM `indexmenu` WHERE isdel=0 ORDER BY sort  [ RunTime:0.001135s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run LocationTemplate Behavior [ RunTime:0.002709s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --END-- [ RunTime:0.002802s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run ParseTemplate Behavior [ RunTime:0.020522s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --END-- [ RunTime:0.020623s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run ContentReplace Behavior [ RunTime:0.001323s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run TokenBuild Behavior [ RunTime:0.001391s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001126s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run ShowRuntime Behavior [ RunTime:0.001390s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005511s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | SQL: SHOW COLUMNS FROM `news` [ RunTime:0.002668s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | SQL: SELECT `id`,`newtitle`,`count` FROM `news` ORDER BY count LIMIT 10   [ RunTime:0.001099s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001213s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.030826s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run ParseTemplate Behavior [ RunTime:0.004785s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.011472s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run ContentReplace Behavior [ RunTime:0.000102s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run TokenBuild Behavior [ RunTime:0.000071s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000122s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.010836s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001163s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.037608s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run ParseTemplate Behavior [ RunTime:0.002758s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.018191s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run ContentReplace Behavior [ RunTime:0.000094s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run TokenBuild Behavior [ RunTime:0.000071s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000119s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.015551s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | SQL: SELECT `id`,`newtitle`,`fstcreate` FROM `news` ORDER BY id LIMIT 10   [ RunTime:0.000394s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | SQL: SELECT `id`,`newtitle`,`fstcreate`,`count` FROM `news` ORDER BY count,id LIMIT 10   [ RunTime:0.000475s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | SQL: SELECT news.id,count(comment.type) as counts,news.newtitle FROM `news` left join comment on comment.type=news.id WHERE comment.isdel=1 GROUP BY comment.type ORDER BY counts desc  [ RunTime:0.000402s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001213s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.044499s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run ParseTemplate Behavior [ RunTime:0.008489s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.025141s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run ContentReplace Behavior [ RunTime:0.000099s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run TokenBuild Behavior [ RunTime:0.000072s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000123s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.028199s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | SQL: SHOW COLUMNS FROM `newtype` [ RunTime:0.002373s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | SQL: SELECT * FROM `newtype` WHERE isdel=0   [ RunTime:0.001435s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001278s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.059441s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run ParseTemplate Behavior [ RunTime:0.003776s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.040158s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run ContentReplace Behavior [ RunTime:0.000095s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run TokenBuild Behavior [ RunTime:0.000070s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000128s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.038595s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | SQL: SELECT COUNT(*) AS tp_count FROM `news` join newtype on newtype.id=news.newtype WHERE ( `entypename` = 'sports' ) LIMIT 1   [ RunTime:0.001443s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | SQL: SELECT news.id,news.newtitle,news.author,news.fstcreate,news.newcontent,`count`,`typename`,`entypename`,`newimg` FROM `news` join newtype on newtype.id=news.newtype WHERE ( `entypename` = 'sports' ) ORDER BY id desc  LIMIT 0,10   [ RunTime:0.001182s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run LocationTemplate Behavior [ RunTime:0.002479s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.070982s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run ParseTemplate Behavior [ RunTime:0.042300s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.052955s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run ContentReplace Behavior [ RunTime:0.000154s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run TokenBuild Behavior [ RunTime:0.000072s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000024s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000136s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.089843s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001621s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.116706s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run ParseTemplate Behavior [ RunTime:0.004916s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.097827s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run ContentReplace Behavior [ RunTime:0.000282s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run TokenBuild Behavior [ RunTime:0.000090s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000023s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000129s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.097342s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001134s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.124465s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run ParseTemplate Behavior [ RunTime:0.006893s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.105393s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run ContentReplace Behavior [ RunTime:0.000262s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run TokenBuild Behavior [ RunTime:0.000075s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000023s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000174s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.106901s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_end ] --START--
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Run ShowPageTrace Behavior [ RunTime:0.001421s ]
+[ 2013-12-19T10:09:28+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_end ] --END-- [ RunTime:0.001487s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ route_check ] --START--
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run CheckRoute Behavior [ RunTime:0.005080s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ route_check ] --END-- [ RunTime:0.006133s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ app_begin ] --START--
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run ReadHtmlCache Behavior [ RunTime:0.005308s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ app_begin ] --END-- [ RunTime:0.005474s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | SQL: SHOW COLUMNS FROM `indexmenu` [ RunTime:0.002513s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | SQL: SELECT * FROM `indexmenu` WHERE isdel=0 ORDER BY sort  [ RunTime:0.006363s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run LocationTemplate Behavior [ RunTime:0.006744s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --END-- [ RunTime:0.006862s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run ParseTemplate Behavior [ RunTime:0.038045s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --END-- [ RunTime:0.038152s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run ContentReplace Behavior [ RunTime:0.008651s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run TokenBuild Behavior [ RunTime:0.002267s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.002849s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run ShowRuntime Behavior [ RunTime:0.001915s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --END-- [ RunTime:0.016019s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | SQL: SHOW COLUMNS FROM `news` [ RunTime:0.002562s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | SQL: SELECT `id`,`newtitle`,`count` FROM `news` ORDER BY count LIMIT 10   [ RunTime:0.003084s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001305s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.060735s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run ParseTemplate Behavior [ RunTime:0.007833s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.024008s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run ContentReplace Behavior [ RunTime:0.000097s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run TokenBuild Behavior [ RunTime:0.000068s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000123s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.015998s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run LocationTemplate Behavior [ RunTime:0.002591s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.071003s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run ParseTemplate Behavior [ RunTime:0.003907s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.035688s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run ContentReplace Behavior [ RunTime:0.000122s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run TokenBuild Behavior [ RunTime:0.000070s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000022s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000113s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.024254s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | SQL: SELECT `id`,`newtitle`,`fstcreate` FROM `news` ORDER BY id LIMIT 10   [ RunTime:0.000395s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | SQL: SELECT `id`,`newtitle`,`fstcreate`,`count` FROM `news` ORDER BY count,id LIMIT 10   [ RunTime:0.000420s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | SQL: SELECT news.id,count(comment.type) as counts,news.newtitle FROM `news` left join comment on comment.type=news.id WHERE comment.isdel=1 GROUP BY comment.type ORDER BY counts desc  [ RunTime:0.000375s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001680s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.081141s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run ParseTemplate Behavior [ RunTime:0.017447s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.044744s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run ContentReplace Behavior [ RunTime:0.000103s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run TokenBuild Behavior [ RunTime:0.000070s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000134s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.046344s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | SQL: SHOW COLUMNS FROM `newtype` [ RunTime:0.002679s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | SQL: SELECT * FROM `newtype` WHERE isdel=0   [ RunTime:0.001993s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001309s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.106497s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run ParseTemplate Behavior [ RunTime:0.007024s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.069708s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run ContentReplace Behavior [ RunTime:0.000093s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run TokenBuild Behavior [ RunTime:0.000071s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000114s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.060800s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | SQL: SELECT COUNT(*) AS tp_count FROM `news` join newtype on newtype.id=news.newtype LIMIT 1   [ RunTime:0.000623s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | SQL: SELECT news.id,news.newtitle,news.author,news.fstcreate,news.newcontent,`count`,`typename`,`entypename`,`newimg` FROM `news` join newtype on newtype.id=news.newtype ORDER BY id desc  LIMIT 0,32   [ RunTime:0.002009s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001801s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.119341s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run ParseTemplate Behavior [ RunTime:0.013126s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.083168s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run ContentReplace Behavior [ RunTime:0.000336s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run TokenBuild Behavior [ RunTime:0.000070s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000022s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000211s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.080411s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001996s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.135588s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run ParseTemplate Behavior [ RunTime:0.009341s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.099498s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run ContentReplace Behavior [ RunTime:0.000280s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run TokenBuild Behavior [ RunTime:0.000077s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000022s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000125s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.092919s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001539s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.148040s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run ParseTemplate Behavior [ RunTime:0.005022s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.111484s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run ContentReplace Behavior [ RunTime:0.000362s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run TokenBuild Behavior [ RunTime:0.000073s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000025s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000603s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.102690s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_end ] --START--
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Run ShowPageTrace Behavior [ RunTime:0.002461s ]
+[ 2013-12-19T10:09:30+08:00 ] /miucool/index.html | INFO: Tag[ view_end ] --END-- [ RunTime:0.002560s ]
+[ 2013-12-19T10:09:32+08:00 ] /miucool/article/sports.html | INFO: Tag[ route_check ] --START--
+[ 2013-12-19T10:09:32+08:00 ] /miucool/article/sports.html | INFO: Run CheckRoute Behavior [ RunTime:0.011757s ]
+[ 2013-12-19T10:09:32+08:00 ] /miucool/article/sports.html | INFO: Tag[ route_check ] --END-- [ RunTime:0.012113s ]
+[ 2013-12-19T10:09:32+08:00 ] /miucool/article/sports.html | INFO: Tag[ app_begin ] --START--
+[ 2013-12-19T10:09:32+08:00 ] /miucool/article/sports.html | INFO: Run ReadHtmlCache Behavior [ RunTime:0.004171s ]
+[ 2013-12-19T10:09:32+08:00 ] /miucool/article/sports.html | INFO: Tag[ app_begin ] --END-- [ RunTime:0.004391s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | SQL: SHOW COLUMNS FROM `indexmenu` [ RunTime:0.005476s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | SQL: SELECT * FROM `indexmenu` WHERE isdel=0 ORDER BY sort  [ RunTime:0.001452s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run LocationTemplate Behavior [ RunTime:0.003653s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --END-- [ RunTime:0.003849s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run ParseTemplate Behavior [ RunTime:0.050702s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --END-- [ RunTime:0.050866s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run ContentReplace Behavior [ RunTime:0.001983s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run TokenBuild Behavior [ RunTime:0.001974s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001608s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run ShowRuntime Behavior [ RunTime:0.003305s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --END-- [ RunTime:0.009364s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | SQL: SHOW COLUMNS FROM `news` [ RunTime:0.005838s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | SQL: SELECT `id`,`newtitle`,`count` FROM `news` ORDER BY count LIMIT 10   [ RunTime:0.002660s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run LocationTemplate Behavior [ RunTime:0.004200s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.071053s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run ParseTemplate Behavior [ RunTime:0.014225s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.024731s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run ContentReplace Behavior [ RunTime:0.000161s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run TokenBuild Behavior [ RunTime:0.000118s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000036s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000209s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.029651s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001690s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.091080s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run ParseTemplate Behavior [ RunTime:0.006591s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.041995s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run ContentReplace Behavior [ RunTime:0.000183s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run TokenBuild Behavior [ RunTime:0.000118s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000034s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000199s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.039258s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | SQL: SELECT `id`,`newtitle`,`fstcreate` FROM `news` ORDER BY id LIMIT 10   [ RunTime:0.000879s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | SQL: SELECT `id`,`newtitle`,`fstcreate`,`count` FROM `news` ORDER BY count,id LIMIT 10   [ RunTime:0.001520s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | SQL: SELECT news.id,count(comment.type) as counts,news.newtitle FROM `news` left join comment on comment.type=news.id WHERE comment.isdel=1 GROUP BY comment.type ORDER BY counts desc  [ RunTime:0.000860s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001761s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.105553s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run ParseTemplate Behavior [ RunTime:0.021755s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.056543s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run ContentReplace Behavior [ RunTime:0.000158s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run TokenBuild Behavior [ RunTime:0.000364s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000079s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000411s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.068946s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | SQL: SHOW COLUMNS FROM `newtype` [ RunTime:0.006186s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | SQL: SELECT * FROM `newtype` WHERE isdel=0   [ RunTime:0.003640s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001888s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.143435s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run ParseTemplate Behavior [ RunTime:0.011357s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.094567s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run ContentReplace Behavior [ RunTime:0.000153s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run TokenBuild Behavior [ RunTime:0.000115s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000086s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000418s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.096730s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | SQL: SELECT COUNT(*) AS tp_count FROM `news` join newtype on newtype.id=news.newtype WHERE ( `entypename` = 'sports' ) LIMIT 1   [ RunTime:0.001786s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | SQL: SELECT news.id,news.newtitle,news.author,news.fstcreate,news.newcontent,`count`,`typename`,`entypename`,`newimg` FROM `news` join newtype on newtype.id=news.newtype WHERE ( `entypename` = 'sports' ) ORDER BY id desc  LIMIT 0,10   [ RunTime:0.002674s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run LocationTemplate Behavior [ RunTime:0.002115s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.165850s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run ParseTemplate Behavior [ RunTime:0.113767s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.117328s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run ContentReplace Behavior [ RunTime:0.000628s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run TokenBuild Behavior [ RunTime:0.000086s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000023s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000129s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.221766s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001206s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.283484s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run ParseTemplate Behavior [ RunTime:0.004197s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.233850s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run ContentReplace Behavior [ RunTime:0.000159s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run TokenBuild Behavior [ RunTime:0.000115s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000034s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000202s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.228685s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run LocationTemplate Behavior [ RunTime:0.002814s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.290291s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run ParseTemplate Behavior [ RunTime:0.007178s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.242426s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run ContentReplace Behavior [ RunTime:0.000441s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run TokenBuild Behavior [ RunTime:0.000116s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000035s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000279s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.240250s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_end ] --START--
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Run ShowPageTrace Behavior [ RunTime:0.002136s ]
+[ 2013-12-19T10:09:33+08:00 ] /miucool/article/sports.html | INFO: Tag[ view_end ] --END-- [ RunTime:0.002245s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ route_check ] --START--
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run CheckRoute Behavior [ RunTime:0.004942s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ route_check ] --END-- [ RunTime:0.005229s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ app_begin ] --START--
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run ReadHtmlCache Behavior [ RunTime:0.003049s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ app_begin ] --END-- [ RunTime:0.003271s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | SQL: SHOW COLUMNS FROM `indexmenu` [ RunTime:0.006219s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | SQL: SELECT * FROM `indexmenu` WHERE isdel=0  [ RunTime:0.002816s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run LocationTemplate Behavior [ RunTime:0.002409s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_template ] --END-- [ RunTime:0.002681s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run ParseTemplate Behavior [ RunTime:0.017960s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018150s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run ContentReplace Behavior [ RunTime:0.000396s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run TokenBuild Behavior [ RunTime:0.000368s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000231s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000452s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001601s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | SQL: SHOW COLUMNS FROM `news` [ RunTime:0.002737s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | SQL: SELECT `id`,`newtitle`,`fstcreate` FROM `news` ORDER BY id LIMIT 10   [ RunTime:0.002190s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | SQL: SELECT `id`,`newtitle`,`fstcreate`,`count` FROM `news` ORDER BY count,id LIMIT 10   [ RunTime:0.000802s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | SQL: SELECT news.id,count(comment.type) as counts,news.newtitle FROM `news` left join comment on comment.type=news.id WHERE comment.isdel=1 GROUP BY comment.type ORDER BY counts desc  [ RunTime:0.000626s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run LocationTemplate Behavior [ RunTime:0.000421s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.028680s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run ParseTemplate Behavior [ RunTime:0.008412s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.010831s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run ContentReplace Behavior [ RunTime:0.000091s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run TokenBuild Behavior [ RunTime:0.000069s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000020s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000123s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.017717s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | SQL: SHOW COLUMNS FROM `newtype` [ RunTime:0.002855s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | SQL: SELECT * FROM `newtype` WHERE isdel=0   [ RunTime:0.003499s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001018s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.045530s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run ParseTemplate Behavior [ RunTime:0.008225s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.028545s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run ContentReplace Behavior [ RunTime:0.000095s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run TokenBuild Behavior [ RunTime:0.000072s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000118s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.035321s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( news.id = '1524' ) LIMIT 1   [ RunTime:0.031005s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | SQL: SELECT news.id,news.fstcreate,`author`,`newtitle`,`newcontent`,`typename`,`count`,`entypename` FROM `news` join newtype on news.newtype=newtype.id WHERE ( news.id = '1524' ) LIMIT 0,15   [ RunTime:0.000683s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | SQL: UPDATE `news` SET `count`=1 WHERE ( `id` = '1524' ) [ RunTime:0.038822s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.002523s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | SQL: SELECT COUNT(*) AS tp_count FROM `comment` join news on news.id=comment.type WHERE ( news.id = '1524' ) AND ( comment.isdel = 1 ) LIMIT 1   [ RunTime:0.001838s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | SQL: SELECT comment.user,comment.fstcreate,comment.comment,comment.type FROM `comment` join news on news.id=comment.type WHERE ( news.id = '1524' ) AND ( comment.isdel = 1 ) ORDER BY fstcreate asc  LIMIT 0,15   [ RunTime:0.000608s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | SQL: SELECT * FROM (SELECT id,newtitle FROM news WHERE id<1524 ORDER BY id DESC LIMIT 1)tb1 UNION ALL SELECT id,newtitle FROM (SELECT* FROM news WHERE id>1524 ORDER BY id ASC LIMIT 1)tb2
+ [ RunTime:0.015048s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | SQL: SELECT `id`,`newtitle` FROM `news` ORDER BY id LIMIT 15   [ RunTime:0.002185s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run LocationTemplate Behavior [ RunTime:0.003090s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.154526s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | NOTIC: [8] Use of undefined constant id - assumed 'id' f9e5338861a55d07bd4836f5355b58d0.php 第 213 行.
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | NOTIC: [8] Use of undefined constant id - assumed 'id' f9e5338861a55d07bd4836f5355b58d0.php 第 213 行.
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | NOTIC: [8] Use of undefined constant newtitle - assumed 'newtitle' f9e5338861a55d07bd4836f5355b58d0.php 第 213 行.
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | NOTIC: [8] Use of undefined constant newtitle - assumed 'newtitle' f9e5338861a55d07bd4836f5355b58d0.php 第 213 行.
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | NOTIC: [8] Use of undefined constant id - assumed 'id' f9e5338861a55d07bd4836f5355b58d0.php 第 214 行.
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | NOTIC: [8] Use of undefined constant id - assumed 'id' f9e5338861a55d07bd4836f5355b58d0.php 第 214 行.
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | NOTIC: [8] Use of undefined constant newtitle - assumed 'newtitle' f9e5338861a55d07bd4836f5355b58d0.php 第 214 行.
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | NOTIC: [8] Use of undefined constant newtitle - assumed 'newtitle' f9e5338861a55d07bd4836f5355b58d0.php 第 214 行.
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run ParseTemplate Behavior [ RunTime:0.230225s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.139601s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run ContentReplace Behavior [ RunTime:0.000472s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run TokenBuild Behavior [ RunTime:0.000300s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000069s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000443s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.368550s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001044s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.390650s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run ParseTemplate Behavior [ RunTime:0.005884s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.373659s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run ContentReplace Behavior [ RunTime:0.000103s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run TokenBuild Behavior [ RunTime:0.000072s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000225s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.378107s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_template ] --START--
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run LocationTemplate Behavior [ RunTime:0.001558s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_template ] --END-- [ RunTime:-0.398977s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_parse ] --START--
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run ParseTemplate Behavior [ RunTime:0.005288s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.382267s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_filter ] --START--
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run ContentReplace Behavior [ RunTime:0.000239s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run TokenBuild Behavior [ RunTime:0.000072s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run ShowRuntime Behavior [ RunTime:0.000147s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.386074s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_end ] --START--
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Run ShowPageTrace Behavior [ RunTime:0.000563s ]
+[ 2013-12-19T10:09:34+08:00 ] /miucool/view/1524.html | INFO: Tag[ view_end ] --END-- [ RunTime:0.000623s ]
