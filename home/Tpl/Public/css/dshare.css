@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+.share-home {
+background-color: #FDFDFD;
+border: 1px solid #D6D6D6;
+border-radius: 2px;
+padding: 6px 10px;
+margin-bottom: 12px;
+}
+.share-home {
+overflow: hidden;
+background-color: #FDFDFD;
+border: 1px solid #D6D6D6;
+border-radius: 2px;
+padding: 6px 10px;
+margin-bottom: 12px;
+}
+.dshare {
+padding-left: 20px;
+margin-right: 10px;
+height: 16px;
+line-height: 16px;
+display: inline-block;
+cursor: pointer;
+background: url(../images/share.png) no-repeat;
+}
+.ds_tqq {
+background-position: 0 -48px;
+}
+.ds_qzone {
+background-position: 0 0;
+}
+.ds_tsina {
+background-position: 0 -16px;
+}
+.ds_renren {
+background-position: 0 -32px;
+}
+.ds_kaixin {
+background-position: 0 -64px;
+}
+.ds_douban {
+background-position: 0 -96px;
+}
+.ds_facebook {
+background-position: 0 -112px;
+}
+.ds_twitter {
+background-position: 0 -128px;
+}

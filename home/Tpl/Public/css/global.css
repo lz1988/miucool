@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+
+#tag_home,#tag_banner,#tag_content,#tag_footer{margin:auto 0px;width:980px;}
+.tag_main{float:left;display:block;width:730px;padding-left:8px;padding-right:8px;border-right:#DED4D4 solid 1px;}
+.tag_type{float:left;width:210px;display:block;margin-left:20px;}
+

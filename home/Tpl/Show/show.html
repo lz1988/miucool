@@ -1,0 +1,16 @@
+<style>
+.pagecut{margin:8px 0px 9px 9px;line-height:20px;height:20px;}
+.m{padding-left:3px; border-bottom:1px dashed #E2E2E2; }
+.m li{line-height:20px;height:18px;}
+.au{color:#A2A2A2; text-align:right;}
+.bread{ line-height:15px;margin:5px;Letter-spacing:0.3em;}
+.remark{color:#666666;margin-bottom:8px;padding:3px 0px 0px 30px;}
+.content{padding-left:20px;}
+</style>
+
+<volist name="maindata" id="vo">
+<div class="remark"><h3 class="newtitle""><a href="{:U("/view/$vo[id]")}">{$vo.newtitle}</a></h3>作者：{$vo.author}&nbsp;&nbsp;时间：{$vo.fstcreate}&nbsp;&nbsp;点击次数：{$vo.count}</div>
+<div class="content">{$vo.newcontent|delhtmltags|msubstr=###,0,170}</div>
+<p style="border-bottom:1px dashed #E2E2E2;"></p>
+</volist>
+<div class="pagecut">{$pagelist}</div>

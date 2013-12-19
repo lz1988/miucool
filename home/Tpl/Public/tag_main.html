@@ -1,0 +1,35 @@
+<style>
+.pagecut{margin:9px 0px 9px 9px; line-height:20px;height:20px; clear:both;}
+.article{clear:left; float:left;padding:15px 4px; position:relative;width:100%; border-bottom:#EEE 1px solid}
+.article img{float:left;border:0;}
+
+.title{margin:0px 5px; overflow:hidden;padding-left:8px;}
+.info{left;color:#777}
+.contents{display:block;overflow:hidden;color:#666}
+.t{font-size:14px;overflow:hidden;}
+.archive_more{float:right;}
+</style>
+
+
+<volist name="maindata" id="vo">
+<div class="article">
+<if condition ="$vo.newimg eq ''">
+<a href="{:U("/view/$vo[id]")}" target="_blank"><img height="105" src="../Public/pic/2000.jpg" width="145" /></a>
+<else/>
+<a href="{:U("/view/$vo[id]")}" target="_blank"><img height="105" src="../Public/pic/{$vo.newimg}" width="145" /></a>
+</if>
+    <div class="title">
+        <span class="t"><a href="{:U("/view/$vo[id]")}" target="_blank">{$vo.newtitle}</a></span>
+        <div class="info">主题&nbsp;<a href="{:U("/article/$vo[entypename]")}">{$vo.typename}</a>&nbsp;&nbsp;&nbsp;&nbsp;{$vo.author}&nbsp; 发表&nbsp;{$vo.fstcreate|strtotime|date='Y-m-d',###}&nbsp;&nbsp;&nbsp;&nbsp;点击&nbsp;{$vo.count}&nbsp;次
+        </div>
+        <div class="contents">{$vo.newcontent|delhtmltags|msubstr=0,140,'utf-8',false}</div>
+    </div>
+    <div class="archive_more"><a href="{:U("/view/$vo[id]")}"  target="_blank"title="{$vo.newtitle}">阅读全文</a></div>
+</div>
+
+</volist>
+
+<div class="pagecut">{$pagelist}</div>
+<!--alivv code start I0AxUyXlF/4=--><!--alivv code end-->
+
+

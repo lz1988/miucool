@@ -1,0 +1,440 @@
+[ 2013-11-13T16:18:09+08:00 ] /admin/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2013-11-13T16:18:09+08:00 ] /admin/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002150s ]
+[ 2013-11-13T16:18:09+08:00 ] /admin/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002283s ]
+[ 2013-11-13T16:18:09+08:00 ] /admin/admin.php | INFO: Tag[ view_template ] --START--
+[ 2013-11-13T16:18:09+08:00 ] /admin/admin.php | INFO: Run LocationTemplate Behavior [ RunTime:0.002761s ]
+[ 2013-11-13T16:18:09+08:00 ] /admin/admin.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.002887s ]
+[ 2013-11-13T16:18:09+08:00 ] /admin/admin.php | INFO: Tag[ view_parse ] --START--
+[ 2013-11-13T16:18:09+08:00 ] /admin/admin.php | INFO: Run ParseTemplate Behavior [ RunTime:0.052250s ]
+[ 2013-11-13T16:18:09+08:00 ] /admin/admin.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.052356s ]
+[ 2013-11-13T16:18:09+08:00 ] /admin/admin.php | INFO: Tag[ view_filter ] --START--
+[ 2013-11-13T16:18:09+08:00 ] /admin/admin.php | INFO: Run ContentReplace Behavior [ RunTime:0.003429s ]
+[ 2013-11-13T16:18:09+08:00 ] /admin/admin.php | INFO: Run TokenBuild Behavior [ RunTime:0.001660s ]
+[ 2013-11-13T16:18:09+08:00 ] /admin/admin.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001251s ]
+[ 2013-11-13T16:18:09+08:00 ] /admin/admin.php | INFO: Run ShowRuntime Behavior [ RunTime:0.001528s ]
+[ 2013-11-13T16:18:09+08:00 ] /admin/admin.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.008207s ]
+[ 2013-11-13T16:18:09+08:00 ] /admin/admin.php | INFO: Tag[ view_end ] --START--
+[ 2013-11-13T16:18:09+08:00 ] /admin/admin.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.001500s ]
+[ 2013-11-13T16:18:09+08:00 ] /admin/admin.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.001565s ]
+[ 2013-11-13T16:18:10+08:00 ] /admin/Index/verify/ | INFO: Tag[ route_check ] --START--
+[ 2013-11-13T16:18:10+08:00 ] /admin/Index/verify/ | INFO: Run CheckRoute Behavior [ RunTime:0.015377s ]
+[ 2013-11-13T16:18:10+08:00 ] /admin/Index/verify/ | INFO: Tag[ route_check ] --END-- [ RunTime:0.015519s ]
+[ 2013-11-13T16:18:10+08:00 ] /admin/Index/verify/ | INFO: Tag[ app_begin ] --START--
+[ 2013-11-13T16:18:10+08:00 ] /admin/Index/verify/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002165s ]
+[ 2013-11-13T16:18:10+08:00 ] /admin/Index/verify/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002269s ]
+[ 2013-11-13T16:18:10+08:00 ] /admin/Index/verify/ | NOTIC: [8] Use of undefined constant gif - assumed 'gif' IndexAction.class.php 第 14 行.
+[ 2013-11-13T16:18:14+08:00 ] /admin/Index/verify/0.3597514145076275 | INFO: Tag[ route_check ] --START--
+[ 2013-11-13T16:18:14+08:00 ] /admin/Index/verify/0.3597514145076275 | INFO: Run CheckRoute Behavior [ RunTime:0.001588s ]
+[ 2013-11-13T16:18:14+08:00 ] /admin/Index/verify/0.3597514145076275 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001753s ]
+[ 2013-11-13T16:18:14+08:00 ] /admin/Index/verify/0.3597514145076275 | INFO: Tag[ app_begin ] --START--
+[ 2013-11-13T16:18:14+08:00 ] /admin/Index/verify/0.3597514145076275 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000923s ]
+[ 2013-11-13T16:18:14+08:00 ] /admin/Index/verify/0.3597514145076275 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001036s ]
+[ 2013-11-13T16:18:14+08:00 ] /admin/Index/verify/0.3597514145076275 | NOTIC: [8] Use of undefined constant gif - assumed 'gif' IndexAction.class.php 第 14 行.
+[ 2013-11-13T16:18:15+08:00 ] /admin/Index/verify/0.5750382978003472 | INFO: Tag[ route_check ] --START--
+[ 2013-11-13T16:18:15+08:00 ] /admin/Index/verify/0.5750382978003472 | INFO: Run CheckRoute Behavior [ RunTime:0.002090s ]
+[ 2013-11-13T16:18:15+08:00 ] /admin/Index/verify/0.5750382978003472 | INFO: Tag[ route_check ] --END-- [ RunTime:0.002227s ]
+[ 2013-11-13T16:18:15+08:00 ] /admin/Index/verify/0.5750382978003472 | INFO: Tag[ app_begin ] --START--
+[ 2013-11-13T16:18:15+08:00 ] /admin/Index/verify/0.5750382978003472 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001606s ]
+[ 2013-11-13T16:18:15+08:00 ] /admin/Index/verify/0.5750382978003472 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001686s ]
+[ 2013-11-13T16:18:15+08:00 ] /admin/Index/verify/0.5750382978003472 | NOTIC: [8] Use of undefined constant gif - assumed 'gif' IndexAction.class.php 第 14 行.
+[ 2013-11-13T16:18:15+08:00 ] /admin/Index/verify/0.31046236539259553 | INFO: Tag[ route_check ] --START--
+[ 2013-11-13T16:18:15+08:00 ] /admin/Index/verify/0.31046236539259553 | INFO: Run CheckRoute Behavior [ RunTime:0.002044s ]
+[ 2013-11-13T16:18:15+08:00 ] /admin/Index/verify/0.31046236539259553 | INFO: Tag[ route_check ] --END-- [ RunTime:0.002169s ]
+[ 2013-11-13T16:18:15+08:00 ] /admin/Index/verify/0.31046236539259553 | INFO: Tag[ app_begin ] --START--
+[ 2013-11-13T16:18:15+08:00 ] /admin/Index/verify/0.31046236539259553 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001476s ]
+[ 2013-11-13T16:18:15+08:00 ] /admin/Index/verify/0.31046236539259553 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001548s ]
+[ 2013-11-13T16:18:15+08:00 ] /admin/Index/verify/0.31046236539259553 | NOTIC: [8] Use of undefined constant gif - assumed 'gif' IndexAction.class.php 第 14 行.
+[ 2013-11-13T16:18:15+08:00 ] /admin/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2013-11-13T16:18:15+08:00 ] /admin/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001223s ]
+[ 2013-11-13T16:18:15+08:00 ] /admin/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001333s ]
+[ 2013-11-13T16:18:15+08:00 ] /admin/admin.php | INFO: Tag[ view_template ] --START--
+[ 2013-11-13T16:18:15+08:00 ] /admin/admin.php | INFO: Run LocationTemplate Behavior [ RunTime:0.002117s ]
+[ 2013-11-13T16:18:15+08:00 ] /admin/admin.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.002238s ]
+[ 2013-11-13T16:18:15+08:00 ] /admin/admin.php | INFO: Tag[ view_parse ] --START--
+[ 2013-11-13T16:18:15+08:00 ] /admin/admin.php | INFO: Run ParseTemplate Behavior [ RunTime:0.018057s ]
+[ 2013-11-13T16:18:15+08:00 ] /admin/admin.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018172s ]
+[ 2013-11-13T16:18:15+08:00 ] /admin/admin.php | INFO: Tag[ view_filter ] --START--
+[ 2013-11-13T16:18:15+08:00 ] /admin/admin.php | INFO: Run ContentReplace Behavior [ RunTime:0.001264s ]
+[ 2013-11-13T16:18:15+08:00 ] /admin/admin.php | INFO: Run TokenBuild Behavior [ RunTime:0.001510s ]
+[ 2013-11-13T16:18:15+08:00 ] /admin/admin.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001009s ]
+[ 2013-11-13T16:18:15+08:00 ] /admin/admin.php | INFO: Run ShowRuntime Behavior [ RunTime:0.001229s ]
+[ 2013-11-13T16:18:15+08:00 ] /admin/admin.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005306s ]
+[ 2013-11-13T16:18:15+08:00 ] /admin/admin.php | INFO: Tag[ view_end ] --START--
+[ 2013-11-13T16:18:15+08:00 ] /admin/admin.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.001710s ]
+[ 2013-11-13T16:18:15+08:00 ] /admin/admin.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.001791s ]
+[ 2013-11-13T16:18:15+08:00 ] /admin/Index/verify/ | INFO: Tag[ route_check ] --START--
+[ 2013-11-13T16:18:15+08:00 ] /admin/Index/verify/ | INFO: Run CheckRoute Behavior [ RunTime:0.002116s ]
+[ 2013-11-13T16:18:15+08:00 ] /admin/Index/verify/ | INFO: Tag[ route_check ] --END-- [ RunTime:0.002263s ]
+[ 2013-11-13T16:18:15+08:00 ] /admin/Index/verify/ | INFO: Tag[ app_begin ] --START--
+[ 2013-11-13T16:18:15+08:00 ] /admin/Index/verify/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001468s ]
+[ 2013-11-13T16:18:15+08:00 ] /admin/Index/verify/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001576s ]
+[ 2013-11-13T16:18:15+08:00 ] /admin/Index/verify/ | NOTIC: [8] Use of undefined constant gif - assumed 'gif' IndexAction.class.php 第 14 行.
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000675s ]
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000783s ]
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Tag[ view_template ] --START--
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Run LocationTemplate Behavior [ RunTime:0.001910s ]
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.001995s ]
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Tag[ view_parse ] --START--
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Run ParseTemplate Behavior [ RunTime:0.021150s ]
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.021253s ]
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Tag[ view_filter ] --START--
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Run ContentReplace Behavior [ RunTime:0.001649s ]
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Run TokenBuild Behavior [ RunTime:0.001462s ]
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000979s ]
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Run ShowRuntime Behavior [ RunTime:0.001349s ]
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005676s ]
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Tag[ view_end ] --START--
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.001099s ]
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.001161s ]
+[ 2013-11-13T16:18:16+08:00 ] /admin/Index/verify/ | INFO: Tag[ route_check ] --START--
+[ 2013-11-13T16:18:16+08:00 ] /admin/Index/verify/ | INFO: Run CheckRoute Behavior [ RunTime:0.007839s ]
+[ 2013-11-13T16:18:16+08:00 ] /admin/Index/verify/ | INFO: Tag[ route_check ] --END-- [ RunTime:0.008203s ]
+[ 2013-11-13T16:18:16+08:00 ] /admin/Index/verify/ | INFO: Tag[ app_begin ] --START--
+[ 2013-11-13T16:18:16+08:00 ] /admin/Index/verify/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002098s ]
+[ 2013-11-13T16:18:16+08:00 ] /admin/Index/verify/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002194s ]
+[ 2013-11-13T16:18:16+08:00 ] /admin/Index/verify/ | NOTIC: [8] Use of undefined constant gif - assumed 'gif' IndexAction.class.php 第 14 行.
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000628s ]
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000747s ]
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Tag[ view_template ] --START--
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Run LocationTemplate Behavior [ RunTime:0.000610s ]
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.000683s ]
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Tag[ view_parse ] --START--
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Run ParseTemplate Behavior [ RunTime:0.010404s ]
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010605s ]
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Tag[ view_filter ] --START--
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Run ContentReplace Behavior [ RunTime:0.000522s ]
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Run TokenBuild Behavior [ RunTime:0.000531s ]
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000517s ]
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Run ShowRuntime Behavior [ RunTime:0.000582s ]
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002380s ]
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Tag[ view_end ] --START--
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.000509s ]
+[ 2013-11-13T16:18:16+08:00 ] /admin/admin.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.000572s ]
+[ 2013-11-13T16:18:17+08:00 ] /admin/Index/verify/ | INFO: Tag[ route_check ] --START--
+[ 2013-11-13T16:18:17+08:00 ] /admin/Index/verify/ | INFO: Run CheckRoute Behavior [ RunTime:0.002065s ]
+[ 2013-11-13T16:18:17+08:00 ] /admin/Index/verify/ | INFO: Tag[ route_check ] --END-- [ RunTime:0.002219s ]
+[ 2013-11-13T16:18:17+08:00 ] /admin/Index/verify/ | INFO: Tag[ app_begin ] --START--
+[ 2013-11-13T16:18:17+08:00 ] /admin/Index/verify/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001424s ]
+[ 2013-11-13T16:18:17+08:00 ] /admin/Index/verify/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001493s ]
+[ 2013-11-13T16:18:17+08:00 ] /admin/Index/verify/ | NOTIC: [8] Use of undefined constant gif - assumed 'gif' IndexAction.class.php 第 14 行.
+[ 2013-11-13T16:18:18+08:00 ] /admin/Index/verify/0.07493930705823004 | INFO: Tag[ route_check ] --START--
+[ 2013-11-13T16:18:18+08:00 ] /admin/Index/verify/0.07493930705823004 | INFO: Run CheckRoute Behavior [ RunTime:0.001492s ]
+[ 2013-11-13T16:18:18+08:00 ] /admin/Index/verify/0.07493930705823004 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001647s ]
+[ 2013-11-13T16:18:18+08:00 ] /admin/Index/verify/0.07493930705823004 | INFO: Tag[ app_begin ] --START--
+[ 2013-11-13T16:18:18+08:00 ] /admin/Index/verify/0.07493930705823004 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000908s ]
+[ 2013-11-13T16:18:18+08:00 ] /admin/Index/verify/0.07493930705823004 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001006s ]
+[ 2013-11-13T16:18:18+08:00 ] /admin/Index/verify/0.07493930705823004 | NOTIC: [8] Use of undefined constant gif - assumed 'gif' IndexAction.class.php 第 14 行.
+[ 2013-11-13T16:18:18+08:00 ] /admin/Index/verify/0.10791483358480036 | INFO: Tag[ route_check ] --START--
+[ 2013-11-13T16:18:18+08:00 ] /admin/Index/verify/0.10791483358480036 | INFO: Run CheckRoute Behavior [ RunTime:0.000897s ]
+[ 2013-11-13T16:18:18+08:00 ] /admin/Index/verify/0.10791483358480036 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001019s ]
+[ 2013-11-13T16:18:18+08:00 ] /admin/Index/verify/0.10791483358480036 | INFO: Tag[ app_begin ] --START--
+[ 2013-11-13T16:18:18+08:00 ] /admin/Index/verify/0.10791483358480036 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000556s ]
+[ 2013-11-13T16:18:18+08:00 ] /admin/Index/verify/0.10791483358480036 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000614s ]
+[ 2013-11-13T16:18:18+08:00 ] /admin/Index/verify/0.10791483358480036 | NOTIC: [8] Use of undefined constant gif - assumed 'gif' IndexAction.class.php 第 14 行.
+[ 2013-11-13T16:18:19+08:00 ] /admin/Index/verify/0.37527156225405633 | INFO: Tag[ route_check ] --START--
+[ 2013-11-13T16:18:19+08:00 ] /admin/Index/verify/0.37527156225405633 | INFO: Run CheckRoute Behavior [ RunTime:0.002475s ]
+[ 2013-11-13T16:18:19+08:00 ] /admin/Index/verify/0.37527156225405633 | INFO: Tag[ route_check ] --END-- [ RunTime:0.002629s ]
+[ 2013-11-13T16:18:19+08:00 ] /admin/Index/verify/0.37527156225405633 | INFO: Tag[ app_begin ] --START--
+[ 2013-11-13T16:18:19+08:00 ] /admin/Index/verify/0.37527156225405633 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001223s ]
+[ 2013-11-13T16:18:19+08:00 ] /admin/Index/verify/0.37527156225405633 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001287s ]
+[ 2013-11-13T16:18:19+08:00 ] /admin/Index/verify/0.37527156225405633 | NOTIC: [8] Use of undefined constant gif - assumed 'gif' IndexAction.class.php 第 14 行.
+[ 2013-11-13T16:18:19+08:00 ] /admin/Index/verify/0.4071718642953783 | INFO: Tag[ route_check ] --START--
+[ 2013-11-13T16:18:19+08:00 ] /admin/Index/verify/0.4071718642953783 | INFO: Run CheckRoute Behavior [ RunTime:0.002530s ]
+[ 2013-11-13T16:18:19+08:00 ] /admin/Index/verify/0.4071718642953783 | INFO: Tag[ route_check ] --END-- [ RunTime:0.002682s ]
+[ 2013-11-13T16:18:19+08:00 ] /admin/Index/verify/0.4071718642953783 | INFO: Tag[ app_begin ] --START--
+[ 2013-11-13T16:18:19+08:00 ] /admin/Index/verify/0.4071718642953783 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001723s ]
+[ 2013-11-13T16:18:19+08:00 ] /admin/Index/verify/0.4071718642953783 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001822s ]
+[ 2013-11-13T16:18:19+08:00 ] /admin/Index/verify/0.4071718642953783 | NOTIC: [8] Use of undefined constant gif - assumed 'gif' IndexAction.class.php 第 14 行.
+[ 2013-11-13T16:18:20+08:00 ] /admin/Index/verify/0.5023914710618556 | INFO: Tag[ route_check ] --START--
+[ 2013-11-13T16:18:20+08:00 ] /admin/Index/verify/0.5023914710618556 | INFO: Run CheckRoute Behavior [ RunTime:0.001642s ]
+[ 2013-11-13T16:18:20+08:00 ] /admin/Index/verify/0.5023914710618556 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001749s ]
+[ 2013-11-13T16:18:20+08:00 ] /admin/Index/verify/0.5023914710618556 | INFO: Tag[ app_begin ] --START--
+[ 2013-11-13T16:18:20+08:00 ] /admin/Index/verify/0.5023914710618556 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001270s ]
+[ 2013-11-13T16:18:20+08:00 ] /admin/Index/verify/0.5023914710618556 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001357s ]
+[ 2013-11-13T16:18:20+08:00 ] /admin/Index/verify/0.5023914710618556 | NOTIC: [8] Use of undefined constant gif - assumed 'gif' IndexAction.class.php 第 14 行.
+[ 2013-11-13T16:18:41+08:00 ] /admin/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2013-11-13T16:18:41+08:00 ] /admin/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002290s ]
+[ 2013-11-13T16:18:41+08:00 ] /admin/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002449s ]
+[ 2013-11-13T16:18:41+08:00 ] /admin/admin.php | INFO: Tag[ view_template ] --START--
+[ 2013-11-13T16:18:41+08:00 ] /admin/admin.php | INFO: Run LocationTemplate Behavior [ RunTime:0.005005s ]
+[ 2013-11-13T16:18:41+08:00 ] /admin/admin.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.005128s ]
+[ 2013-11-13T16:18:41+08:00 ] /admin/admin.php | INFO: Tag[ view_parse ] --START--
+[ 2013-11-13T16:18:41+08:00 ] /admin/admin.php | INFO: Run ParseTemplate Behavior [ RunTime:0.027445s ]
+[ 2013-11-13T16:18:41+08:00 ] /admin/admin.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.027557s ]
+[ 2013-11-13T16:18:41+08:00 ] /admin/admin.php | INFO: Tag[ view_filter ] --START--
+[ 2013-11-13T16:18:41+08:00 ] /admin/admin.php | INFO: Run ContentReplace Behavior [ RunTime:0.001535s ]
+[ 2013-11-13T16:18:41+08:00 ] /admin/admin.php | INFO: Run TokenBuild Behavior [ RunTime:0.001848s ]
+[ 2013-11-13T16:18:41+08:00 ] /admin/admin.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001659s ]
+[ 2013-11-13T16:18:41+08:00 ] /admin/admin.php | INFO: Run ShowRuntime Behavior [ RunTime:0.002224s ]
+[ 2013-11-13T16:18:41+08:00 ] /admin/admin.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007558s ]
+[ 2013-11-13T16:18:41+08:00 ] /admin/admin.php | INFO: Tag[ view_end ] --START--
+[ 2013-11-13T16:18:41+08:00 ] /admin/admin.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.001762s ]
+[ 2013-11-13T16:18:41+08:00 ] /admin/admin.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.001862s ]
+[ 2013-11-13T16:18:42+08:00 ] /admin/Index/verify/ | INFO: Tag[ route_check ] --START--
+[ 2013-11-13T16:18:42+08:00 ] /admin/Index/verify/ | INFO: Run CheckRoute Behavior [ RunTime:0.002023s ]
+[ 2013-11-13T16:18:42+08:00 ] /admin/Index/verify/ | INFO: Tag[ route_check ] --END-- [ RunTime:0.002200s ]
+[ 2013-11-13T16:18:42+08:00 ] /admin/Index/verify/ | INFO: Tag[ app_begin ] --START--
+[ 2013-11-13T16:18:42+08:00 ] /admin/Index/verify/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002239s ]
+[ 2013-11-13T16:18:42+08:00 ] /admin/Index/verify/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002365s ]
+[ 2013-11-13T16:18:42+08:00 ] /admin/Index/verify/ | NOTIC: [8] Use of undefined constant gif - assumed 'gif' IndexAction.class.php 第 14 行.
+[ 2013-11-13T16:19:04+08:00 ] /admin/Index/verify/0.4654833374079317 | INFO: Tag[ route_check ] --START--
+[ 2013-11-13T16:19:04+08:00 ] /admin/Index/verify/0.4654833374079317 | INFO: Run CheckRoute Behavior [ RunTime:0.004983s ]
+[ 2013-11-13T16:19:04+08:00 ] /admin/Index/verify/0.4654833374079317 | INFO: Tag[ route_check ] --END-- [ RunTime:0.005378s ]
+[ 2013-11-13T16:19:04+08:00 ] /admin/Index/verify/0.4654833374079317 | INFO: Tag[ app_begin ] --START--
+[ 2013-11-13T16:19:04+08:00 ] /admin/Index/verify/0.4654833374079317 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002862s ]
+[ 2013-11-13T16:19:04+08:00 ] /admin/Index/verify/0.4654833374079317 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002998s ]
+[ 2013-11-13T16:19:04+08:00 ] /admin/Index/verify/0.4654833374079317 | NOTIC: [8] Use of undefined constant gif - assumed 'gif' IndexAction.class.php 第 14 行.
+[ 2013-11-13T16:19:06+08:00 ] /admin/Index/checklogin | INFO: Tag[ route_check ] --START--
+[ 2013-11-13T16:19:06+08:00 ] /admin/Index/checklogin | INFO: Run CheckRoute Behavior [ RunTime:0.003997s ]
+[ 2013-11-13T16:19:06+08:00 ] /admin/Index/checklogin | INFO: Tag[ route_check ] --END-- [ RunTime:0.004224s ]
+[ 2013-11-13T16:19:06+08:00 ] /admin/Index/checklogin | INFO: Tag[ app_begin ] --START--
+[ 2013-11-13T16:19:06+08:00 ] /admin/Index/checklogin | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002469s ]
+[ 2013-11-13T16:19:06+08:00 ] /admin/Index/checklogin | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002627s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/checklogin | SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.004001s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/checklogin | SQL: SELECT * FROM `admin` WHERE ( `UserName` = 'lizhi' ) AND ( `IsAdmin` = 1 )  [ RunTime:0.007198s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/checklogin | SQL: SHOW COLUMNS FROM `visit_log` [ RunTime:0.003724s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/checklogin | SQL: INSERT INTO `visit_log` (`uid`,`ip_address`) VALUES ('65555','127.0.0.1') [ RunTime:0.001752s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/checklogin | INFO: Tag[ view_template ] --START--
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/checklogin | INFO: Run LocationTemplate Behavior [ RunTime:0.005180s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/checklogin | INFO: Tag[ view_template ] --END-- [ RunTime:0.005325s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/checklogin | INFO: Tag[ view_parse ] --START--
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/checklogin | INFO: Run ParseTemplate Behavior [ RunTime:0.047062s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/checklogin | INFO: Tag[ view_parse ] --END-- [ RunTime:0.047226s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/checklogin | INFO: Tag[ view_filter ] --START--
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/checklogin | INFO: Run ContentReplace Behavior [ RunTime:0.007252s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/checklogin | INFO: Run TokenBuild Behavior [ RunTime:0.007216s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/checklogin | INFO: Run WriteHtmlCache Behavior [ RunTime:0.002618s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/checklogin | INFO: Run ShowRuntime Behavior [ RunTime:0.002657s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/checklogin | INFO: Tag[ view_filter ] --END-- [ RunTime:0.020863s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/checklogin | INFO: Tag[ view_end ] --START--
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/checklogin | INFO: Run ShowPageTrace Behavior [ RunTime:0.004086s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/checklogin | INFO: Tag[ view_end ] --END-- [ RunTime:0.004246s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/main.html | INFO: Tag[ route_check ] --START--
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/main.html | INFO: Run CheckRoute Behavior [ RunTime:0.005816s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/main.html | INFO: Tag[ route_check ] --END-- [ RunTime:0.006034s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/main.html | INFO: Tag[ app_begin ] --START--
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/main.html | INFO: Run ReadHtmlCache Behavior [ RunTime:0.007772s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/main.html | INFO: Tag[ app_begin ] --END-- [ RunTime:0.007923s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/main.html | INFO: Tag[ view_template ] --START--
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/main.html | INFO: Run LocationTemplate Behavior [ RunTime:0.003333s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/main.html | INFO: Tag[ view_template ] --END-- [ RunTime:0.003504s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/main.html | INFO: Tag[ view_parse ] --START--
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/main.html | INFO: Run ParseTemplate Behavior [ RunTime:0.025440s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/main.html | INFO: Tag[ view_parse ] --END-- [ RunTime:0.025581s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/main.html | INFO: Tag[ view_filter ] --START--
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/main.html | INFO: Run ContentReplace Behavior [ RunTime:0.002429s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/main.html | INFO: Run TokenBuild Behavior [ RunTime:0.004656s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/main.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001709s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/main.html | INFO: Run ShowRuntime Behavior [ RunTime:0.001673s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/main.html | INFO: Tag[ view_filter ] --END-- [ RunTime:0.010790s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/main.html | INFO: Tag[ view_end ] --START--
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/main.html | INFO: Run ShowPageTrace Behavior [ RunTime:0.002297s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/main.html | INFO: Tag[ view_end ] --END-- [ RunTime:0.002419s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/left | INFO: Tag[ route_check ] --START--
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/left | INFO: Run CheckRoute Behavior [ RunTime:0.010671s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/left | INFO: Tag[ route_check ] --END-- [ RunTime:0.010785s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/left | INFO: Tag[ app_begin ] --START--
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/left | INFO: Run ReadHtmlCache Behavior [ RunTime:0.003972s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/left | INFO: Tag[ app_begin ] --END-- [ RunTime:0.004095s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/left | SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.031765s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/left | SQL: SELECT pagemenu.id,menu.menuname,pagemenu.pagename,pagemenu.type,pagemenu.pageurl FROM `menu` left join pagemenu on pagemenu.type = menu.id  [ RunTime:0.039964s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/left | INFO: Tag[ view_template ] --START--
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/left | INFO: Run LocationTemplate Behavior [ RunTime:0.002997s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/left | INFO: Tag[ view_template ] --END-- [ RunTime:0.003096s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/left | INFO: Tag[ view_parse ] --START--
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/left | INFO: Run ParseTemplate Behavior [ RunTime:0.025859s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/left | INFO: Tag[ view_parse ] --END-- [ RunTime:0.025965s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/left | INFO: Tag[ view_filter ] --START--
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/left | INFO: Run ContentReplace Behavior [ RunTime:0.001487s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/left | INFO: Run TokenBuild Behavior [ RunTime:0.001753s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/left | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001190s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/left | INFO: Run ShowRuntime Behavior [ RunTime:0.001407s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/left | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006047s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/left | INFO: Tag[ view_end ] --START--
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/left | INFO: Run ShowPageTrace Behavior [ RunTime:0.001233s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/left | INFO: Tag[ view_end ] --END-- [ RunTime:0.001294s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/top | INFO: Tag[ route_check ] --START--
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/top | INFO: Run CheckRoute Behavior [ RunTime:0.003628s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/top | INFO: Tag[ route_check ] --END-- [ RunTime:0.003745s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/top | INFO: Tag[ app_begin ] --START--
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/top | INFO: Run ReadHtmlCache Behavior [ RunTime:0.003026s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/top | INFO: Tag[ app_begin ] --END-- [ RunTime:0.003113s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/top | INFO: Tag[ view_template ] --START--
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/top | INFO: Run LocationTemplate Behavior [ RunTime:0.012341s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/top | INFO: Tag[ view_template ] --END-- [ RunTime:0.012497s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/top | INFO: Tag[ view_parse ] --START--
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/top | NOTIC: [8] Use of undefined constant username - assumed 'username' e0cda327bdf93c95a272fc0968e46aec.php 第 8 行.
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/top | INFO: Run ParseTemplate Behavior [ RunTime:0.022774s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/top | INFO: Tag[ view_parse ] --END-- [ RunTime:0.022856s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/top | INFO: Tag[ view_filter ] --START--
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/top | INFO: Run ContentReplace Behavior [ RunTime:0.001281s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/top | INFO: Run TokenBuild Behavior [ RunTime:0.001237s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/top | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001259s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/top | INFO: Run ShowRuntime Behavior [ RunTime:0.001526s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/top | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005545s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/top | INFO: Tag[ view_end ] --START--
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/top | INFO: Run ShowPageTrace Behavior [ RunTime:0.002418s ]
+[ 2013-11-13T16:19:07+08:00 ] /admin/Index/top | INFO: Tag[ view_end ] --END-- [ RunTime:0.002509s ]
+[ 2013-11-13T16:19:31+08:00 ] /admin/Index/checklogin | INFO: Tag[ route_check ] --START--
+[ 2013-11-13T16:19:31+08:00 ] /admin/Index/checklogin | INFO: Run CheckRoute Behavior [ RunTime:0.004184s ]
+[ 2013-11-13T16:19:31+08:00 ] /admin/Index/checklogin | INFO: Tag[ route_check ] --END-- [ RunTime:0.004416s ]
+[ 2013-11-13T16:19:31+08:00 ] /admin/Index/checklogin | INFO: Tag[ app_begin ] --START--
+[ 2013-11-13T16:19:31+08:00 ] /admin/Index/checklogin | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002716s ]
+[ 2013-11-13T16:19:31+08:00 ] /admin/Index/checklogin | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002945s ]
+[ 2013-11-13T16:19:31+08:00 ] /admin/Index/checklogin | SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.003446s ]
+[ 2013-11-13T16:19:31+08:00 ] /admin/Index/checklogin | SQL: SELECT * FROM `admin` WHERE ( `UserName` = 'lizhi' ) AND ( `IsAdmin` = 1 )  [ RunTime:0.008557s ]
+[ 2013-11-13T16:19:31+08:00 ] /admin/Index/checklogin | SQL: SHOW COLUMNS FROM `visit_log` [ RunTime:0.003668s ]
+[ 2013-11-13T16:19:31+08:00 ] /admin/Index/checklogin | SQL: INSERT INTO `visit_log` (`uid`,`ip_address`) VALUES ('65555','127.0.0.1') [ RunTime:0.014004s ]
+[ 2013-11-13T16:19:31+08:00 ] /admin/Index/checklogin | INFO: Tag[ view_template ] --START--
+[ 2013-11-13T16:19:31+08:00 ] /admin/Index/checklogin | INFO: Run LocationTemplate Behavior [ RunTime:0.005126s ]
+[ 2013-11-13T16:19:31+08:00 ] /admin/Index/checklogin | INFO: Tag[ view_template ] --END-- [ RunTime:0.005276s ]
+[ 2013-11-13T16:19:31+08:00 ] /admin/Index/checklogin | INFO: Tag[ view_parse ] --START--
+[ 2013-11-13T16:19:31+08:00 ] /admin/Index/checklogin | INFO: Run ParseTemplate Behavior [ RunTime:0.038040s ]
+[ 2013-11-13T16:19:31+08:00 ] /admin/Index/checklogin | INFO: Tag[ view_parse ] --END-- [ RunTime:0.038179s ]
+[ 2013-11-13T16:19:31+08:00 ] /admin/Index/checklogin | INFO: Tag[ view_filter ] --START--
+[ 2013-11-13T16:19:31+08:00 ] /admin/Index/checklogin | INFO: Run ContentReplace Behavior [ RunTime:0.002389s ]
+[ 2013-11-13T16:19:31+08:00 ] /admin/Index/checklogin | INFO: Run TokenBuild Behavior [ RunTime:0.001641s ]
+[ 2013-11-13T16:19:31+08:00 ] /admin/Index/checklogin | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001253s ]
+[ 2013-11-13T16:19:31+08:00 ] /admin/Index/checklogin | INFO: Run ShowRuntime Behavior [ RunTime:0.001920s ]
+[ 2013-11-13T16:19:31+08:00 ] /admin/Index/checklogin | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007495s ]
+[ 2013-11-13T16:19:31+08:00 ] /admin/Index/checklogin | INFO: Tag[ view_end ] --START--
+[ 2013-11-13T16:19:31+08:00 ] /admin/Index/checklogin | INFO: Run ShowPageTrace Behavior [ RunTime:0.001983s ]
+[ 2013-11-13T16:19:31+08:00 ] /admin/Index/checklogin | INFO: Tag[ view_end ] --END-- [ RunTime:0.002077s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/top | INFO: Tag[ route_check ] --START--
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/top | INFO: Run CheckRoute Behavior [ RunTime:0.003278s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/top | INFO: Tag[ route_check ] --END-- [ RunTime:0.003555s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/top | INFO: Tag[ app_begin ] --START--
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/top | INFO: Run ReadHtmlCache Behavior [ RunTime:0.003816s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/top | INFO: Tag[ app_begin ] --END-- [ RunTime:0.003889s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/top | INFO: Tag[ view_template ] --START--
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/top | INFO: Run LocationTemplate Behavior [ RunTime:0.003233s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/top | INFO: Tag[ view_template ] --END-- [ RunTime:0.003558s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/top | INFO: Tag[ view_parse ] --START--
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/top | NOTIC: [8] Use of undefined constant username - assumed 'username' e0cda327bdf93c95a272fc0968e46aec.php 第 8 行.
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/top | INFO: Run ParseTemplate Behavior [ RunTime:0.018945s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/top | INFO: Tag[ view_parse ] --END-- [ RunTime:0.019056s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/top | INFO: Tag[ view_filter ] --START--
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/top | INFO: Run ContentReplace Behavior [ RunTime:0.001318s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/top | INFO: Run TokenBuild Behavior [ RunTime:0.001957s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/top | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001502s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/top | INFO: Run ShowRuntime Behavior [ RunTime:0.001298s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/top | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006394s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/top | INFO: Tag[ view_end ] --START--
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/top | INFO: Run ShowPageTrace Behavior [ RunTime:0.001685s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/top | INFO: Tag[ view_end ] --END-- [ RunTime:0.001792s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/left | INFO: Tag[ route_check ] --START--
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/left | INFO: Run CheckRoute Behavior [ RunTime:0.003523s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/left | INFO: Tag[ route_check ] --END-- [ RunTime:0.003658s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/left | INFO: Tag[ app_begin ] --START--
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/left | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002956s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/left | INFO: Tag[ app_begin ] --END-- [ RunTime:0.003054s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/left | SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.002125s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/left | SQL: SELECT pagemenu.id,menu.menuname,pagemenu.pagename,pagemenu.type,pagemenu.pageurl FROM `menu` left join pagemenu on pagemenu.type = menu.id  [ RunTime:0.002118s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/left | INFO: Tag[ view_template ] --START--
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/left | INFO: Run LocationTemplate Behavior [ RunTime:0.004492s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/left | INFO: Tag[ view_template ] --END-- [ RunTime:0.004630s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/left | INFO: Tag[ view_parse ] --START--
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/left | INFO: Run ParseTemplate Behavior [ RunTime:0.023708s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/left | INFO: Tag[ view_parse ] --END-- [ RunTime:0.023815s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/left | INFO: Tag[ view_filter ] --START--
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/left | INFO: Run ContentReplace Behavior [ RunTime:0.001363s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/left | INFO: Run TokenBuild Behavior [ RunTime:0.001172s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/left | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001022s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/left | INFO: Run ShowRuntime Behavior [ RunTime:0.001477s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/left | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005207s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/left | INFO: Tag[ view_end ] --START--
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/left | INFO: Run ShowPageTrace Behavior [ RunTime:0.001311s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/left | INFO: Tag[ view_end ] --END-- [ RunTime:0.001400s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/main.html | INFO: Tag[ route_check ] --START--
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/main.html | INFO: Run CheckRoute Behavior [ RunTime:0.004728s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/main.html | INFO: Tag[ route_check ] --END-- [ RunTime:0.004839s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/main.html | INFO: Tag[ app_begin ] --START--
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/main.html | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002416s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/main.html | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002481s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/main.html | INFO: Tag[ view_template ] --START--
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/main.html | INFO: Run LocationTemplate Behavior [ RunTime:0.002566s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/main.html | INFO: Tag[ view_template ] --END-- [ RunTime:0.002694s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/main.html | INFO: Tag[ view_parse ] --START--
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/main.html | INFO: Run ParseTemplate Behavior [ RunTime:0.025820s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/main.html | INFO: Tag[ view_parse ] --END-- [ RunTime:0.025933s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/main.html | INFO: Tag[ view_filter ] --START--
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/main.html | INFO: Run ContentReplace Behavior [ RunTime:0.001303s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/main.html | INFO: Run TokenBuild Behavior [ RunTime:0.001227s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/main.html | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001542s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/main.html | INFO: Run ShowRuntime Behavior [ RunTime:0.001428s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/main.html | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005694s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/main.html | INFO: Tag[ view_end ] --START--
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/main.html | INFO: Run ShowPageTrace Behavior [ RunTime:0.001554s ]
+[ 2013-11-13T16:19:32+08:00 ] /admin/Index/main.html | INFO: Tag[ view_end ] --END-- [ RunTime:0.001620s ]
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | INFO: Tag[ route_check ] --START--
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | INFO: Run CheckRoute Behavior [ RunTime:0.001042s ]
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | INFO: Tag[ route_check ] --END-- [ RunTime:0.001179s ]
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | INFO: Tag[ app_begin ] --START--
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000609s ]
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000670s ]
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | NOTIC: [8] Undefined index:  menuname MenuAction.class.php 第 6 行.
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | NOTIC: [8] Undefined index:  isdel MenuAction.class.php 第 9 行.
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.002322s ]
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | NOTIC: [8] Undefined variable: condition MenuAction.class.php 第 14 行.
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.001770s ]
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | NOTIC: [8] Undefined index:  menuname MenuAction.class.php 第 17 行.
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | NOTIC: [8] Undefined index:  isdel MenuAction.class.php 第 18 行.
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | NOTIC: [8] Undefined variable: condition MenuAction.class.php 第 25 行.
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | SQL: SELECT * FROM `menu` LIMIT 0,8   [ RunTime:0.000435s ]
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | INFO: Tag[ view_template ] --START--
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | INFO: Run LocationTemplate Behavior [ RunTime:0.002108s ]
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | INFO: Tag[ view_template ] --END-- [ RunTime:0.002219s ]
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | INFO: Tag[ view_parse ] --START--
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | NOTIC: [8] Undefined index:  menuname b1cc11c3b942d7eb399eb2cb0de7ee4e.php 第 14 行.
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | NOTIC: [8] Undefined index:  isdel b1cc11c3b942d7eb399eb2cb0de7ee4e.php 第 15 行.
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | NOTIC: [8] Undefined index:  IsDel b1cc11c3b942d7eb399eb2cb0de7ee4e.php 第 48 行.
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | NOTIC: [8] Undefined index:  IsDel b1cc11c3b942d7eb399eb2cb0de7ee4e.php 第 48 行.
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | NOTIC: [8] Undefined index:  IsDel b1cc11c3b942d7eb399eb2cb0de7ee4e.php 第 48 行.
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | NOTIC: [8] Undefined index:  IsDel b1cc11c3b942d7eb399eb2cb0de7ee4e.php 第 48 行.
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | INFO: Run ParseTemplate Behavior [ RunTime:0.014688s ]
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | INFO: Tag[ view_parse ] --END-- [ RunTime:0.014766s ]
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | INFO: Tag[ view_filter ] --START--
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | INFO: Run ContentReplace Behavior [ RunTime:0.000394s ]
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | INFO: Run TokenBuild Behavior [ RunTime:0.000369s ]
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001135s ]
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | INFO: Run ShowRuntime Behavior [ RunTime:0.000556s ]
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002644s ]
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | INFO: Tag[ view_end ] --START--
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | INFO: Run ShowPageTrace Behavior [ RunTime:0.000446s ]
+[ 2013-11-13T16:19:34+08:00 ] /admin/Menu | INFO: Tag[ view_end ] --END-- [ RunTime:0.000505s ]
+[ 2013-11-13T16:19:34+08:00 ] /admin/Tpl/Public/Public/img/bg-content-box.gif | ERR: (ThinkException) 无法加载模块Tpl
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | INFO: Tag[ route_check ] --START--
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | INFO: Run CheckRoute Behavior [ RunTime:0.002612s ]
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | INFO: Tag[ route_check ] --END-- [ RunTime:0.002770s ]
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | INFO: Tag[ app_begin ] --START--
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002068s ]
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002185s ]
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | NOTIC: [8] Undefined index:  username UserAction.class.php 第 5 行.
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | NOTIC: [8] Undefined index:  isadmin UserAction.class.php 第 9 行.
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.002418s ]
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | NOTIC: [8] Undefined variable: where UserAction.class.php 第 17 行.
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.001730s ]
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | NOTIC: [8] Undefined index:  username UserAction.class.php 第 19 行.
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | NOTIC: [8] Undefined index:  isadmin UserAction.class.php 第 20 行.
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | NOTIC: [8] Undefined variable: where UserAction.class.php 第 29 行.
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | SQL: SELECT * FROM `admin` ORDER BY ID DESC LIMIT 0,20   [ RunTime:0.000354s ]
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | NOTIC: [8] Undefined variable: condition UserAction.class.php 第 31 行.
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | INFO: Tag[ view_template ] --START--
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | INFO: Run LocationTemplate Behavior [ RunTime:0.003943s ]
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | INFO: Tag[ view_template ] --END-- [ RunTime:0.004095s ]
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | INFO: Tag[ view_parse ] --START--
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | NOTIC: [8] Undefined index:  username 426f2bb83a1969c6dd08497085dc563b.php 第 11 行.
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | NOTIC: [8] Undefined index:  isadmin 426f2bb83a1969c6dd08497085dc563b.php 第 12 行.
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | INFO: Run ParseTemplate Behavior [ RunTime:0.032325s ]
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | INFO: Tag[ view_parse ] --END-- [ RunTime:0.032433s ]
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | INFO: Tag[ view_filter ] --START--
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | INFO: Run ContentReplace Behavior [ RunTime:0.002433s ]
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | INFO: Run TokenBuild Behavior [ RunTime:0.001100s ]
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001644s ]
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | INFO: Run ShowRuntime Behavior [ RunTime:0.001614s ]
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007064s ]
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | INFO: Tag[ view_end ] --START--
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | INFO: Run ShowPageTrace Behavior [ RunTime:0.001300s ]
+[ 2013-11-13T16:19:36+08:00 ] /admin/User | INFO: Tag[ view_end ] --END-- [ RunTime:0.001363s ]

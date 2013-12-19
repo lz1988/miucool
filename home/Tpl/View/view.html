@@ -1,0 +1,279 @@
+<style>
+.m{padding-left:3px; border-bottom:1px dashed #E2E2E2; }
+.m li{line-height:20px;height:18px;}
+.detail{color:#A2A2A2;border-bottom:#EEE solid 1px;padding:0px 0px 10px 18px;}
+.bread{ line-height:15px;margin:5px;Letter-spacing:0.3em;}
+.content{padding:10px;text-align:left; overflow:hidden;}
+input, textarea {
+	font-size: 12px;
+	font-family: microsoft yahei;
+}
+.newtitle{padding:8px 0px 5px 18px;font-size:16px;}
+.cur{
+	clear: both;
+	border-top: 1px #DDD solid;
+	border-bottom: 1px #DDD solid;
+	padding: 4px;
+	margin: 10px 0;
+	
+}
+.curpage li{padding:0px;}
+.curpage li a {color:#000000;}
+.curpage li a:hover{color:#52A152}
+
+#commentform #submit:hover, #commentform #reset:hover {
+	border: 1px solid #8CAC52;
+	cursor: pointer;
+}
+#commentform input#submit, #commentform input#reset {
+	width: 87px;
+	height: 26px;
+	color: #393939;
+	text-align: center;
+	text-shadow: 0px 1px 0px white;
+	margin-top: 8px;
+	margin-left:5px;
+	border: 1px solid #DDD;
+	box-shadow: 0 2px 10px #EEE,inset 0 -2px 10px #EEE;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#commentform textarea {
+	width: 90%;
+	height: 180px;
+	font-size: 13px;
+	padding: 4px;
+	margin: 4px 0 0 0;
+	border: 1px solid #DDD;
+	box-shadow: inset 2px 3px 5px #EEE;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+textarea {
+	font-family: monospace;
+}
+input, textarea, button {
+	outline: none;
+}
+textarea {
+	-webkit-appearance: textarea;
+	background-color: white;
+	border: 1px solid;
+	border-image: initial;
+	-webkit-rtl-ordering: logical;
+	-webkit-user-select: text;
+	-webkit-box-orient: vertical;
+	resize: auto;
+	cursor: auto;
+	padding: 2px;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+p {
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+#commentform input {
+	border: 1px #DDD solid;
+	width: 160px;
+	height:25px;
+	margin: 4px auto;
+	box-shadow: 0 2px 10px #EEE,inset 0 -2px 10px #EEE;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	vertical-align:middle;
+}
+input, textarea {
+	margin: 0em;
+	font: -webkit-small-control;
+	color: initial;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+	display: inline-block;
+	text-align: -webkit-auto;
+	
+}
+#commentform p {
+	color: #868686;
+	font-size:14px; 
+}
+#comment{
+	margin-left:12px;
+}
+input[type="button"], input[type="submit"], input[type="reset"],input[type="input"] {
+	-webkit-appearance: push-button;
+	white-space: pre;
+}
+#commentform label {
+	color: #868686;
+}
+#commentform #user:hover,#commentform #email:hover,#commentform textarea:hover{
+	border: 1px solid #8CAC52;
+}
+label {
+	cursor: default;
+}
+.commentlist{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.commentlist .up{
+	font-size:14px;
+}
+.commentlist .datetime {
+	color: #AAA;
+	text-shadow: 0px 1px 0px white;
+	margin-left: 30px;
+}
+.commentlist .author{
+	font-weight:bold;
+	font-size:14px;
+}
+.commentlist .replay a{
+	color:#AAA;
+	text-shadow: 0px 1px 0px white;
+}
+.commentlist .replay a:hover{
+	color:#000000;
+}
+.commentlist .comment{
+	margin-left:30px;
+	overflow:hidden;
+}
+.commentlist, .comment{
+	margin-top:15px;
+}
+.child_commentlist{
+	padding: 10px 15px;
+	border-color: #999 #CCC #CCC #999;
+	border-style: solid;
+	border-width: 1px;
+	background-color: white;
+	border-radius: 3px;
+	margin-left:85px;
+	background-color: #f8f8f8;
+	position:relative;
+	
+	
+}
+.child_commentlist, .small-photo{
+	margin-bottom: 20px;
+	
+}
+.comment_title{
+	border-bottom: 1px #DDD solid;
+}
+i{
+	font-style: italic;
+}
+.icon-arrow{
+	position: absolute;
+	left: -12px;
+	top: 40px;
+	width: 13px;
+	height: 14px;
+	top: 15px;
+	background: url(../Public/images/comment-arrow.png) no-repeat;
+}
+.commentlist .small-photo{
+	display: block;
+	float: none;
+	padding: 0px 2px 2px;
+	position: absolute;
+}
+.small-photo{
+	padding: 2px;
+	margin-right: 3px;
+	font-size: 0;
+	display: inline;
+	float: left;
+}
+</style>
+<volist name="maindata" id="vo">
+<h2 class="newtitle"><a href="{:U("view/$vo[id]")}">{$vo.newtitle}</a></h2>
+<div class="detail">主题：<a  target="_blank"href="{:U("article/$vo[entypename]")}">{$vo.typename}</a>&nbsp;&nbsp;作者：{$vo.author}&nbsp;&nbsp;发表于：{$vo.fstcreate}&nbsp;&nbsp;点击次数：{$vo.count}</div>
+<div class="content">{$vo.newcontent}</div>
+
+<div class="share-txt share-home">分享到：<a class="dshare ds_tqq" title="分享到腾讯微博">腾讯微博</a><a class="dshare ds_qzone" title="分享到QQ空间">QQ空间</a><a class="dshare ds_tsina" title="分享到新浪微博">新浪微博</a><a class="dshare ds_renren" title="分享到人人网">人人网</a><a class="dshare ds_kaixin" title="分享到开心网">开心网</a><a class="dshare ds_douban" title="分享到豆瓣">豆瓣</a><a class="dshare ds_facebook" title="分享到Facebook">Facebook</a><a class="dshare ds_twitter" title="分享到Twitter">Twitter</a></div>
+
+<div class ="auto_keywords">标签：{$vo.newcontent|auto_extract_keywords=3|implode=','}</div>
+<div class="cur">
+<ul class="curpage">
+
+<li class="last">〖上一篇文章〗<if condition = "$next[0][id]"><a href="{:U("/view/".$next[0][id])}" title="{$next[0][newtitle]}">{$next[0][newtitle]}</a><else/>没有了</if></li>
+<li class="next">〖下一篇文章〗<if condition = "$next[1][id]"><a href="{:U("/view/".$next[1][id])}" title="{$next[1][newtitle]}">{$next[1][newtitle]}</a><else/>没有了</if></li>
+</ul>
+</div>
+</volist>
+
+<div id="comment">
+<h3 class="comment_title">我要说</h3>
+<div id="result"></div>
+<div id="msg"></div>
+
+<form method="post" action="__URL__/savecomment" name="baseform" id="commentform">
+<p>
+昵称
+  <label for="author">
+  <input type="text" name="user" tabindex="2"size="22" id="user" />
+  </label>
+邮箱
+  <label for="email">
+  <input type="text" name="email" size="22"  tabindex="3"id="email" />
+  </label>
+  </p>
+  <p>
+  <textarea name="comment" cols="100" placeholder="我要说说～～" tabindex="4" rows="4"></textarea>
+  </p>
+  <p>
+    <input type="submit"  id="submit"class="submit"name="submit"tabindex="5" value="提交评论"/>
+    <input type="reset"class="reset" id="reset" name="reset" tabindex="6" value="重写"/>
+    <input type="hidden" name="type" id="type" value="{$pid}"/>
+    
+    </p>
+
+   <!-- <script type="text/javascript">	//Crel+Enter
+	
+			jQuery(document).keypress(function(e){
+				if(e.ctrlKey && e.which == 13 || e.which == 10) { 
+					jQuery("#commentform").click();
+					document.body.focus();
+				} else if (e.shiftKey && e.which==13 || e.which == 10) {
+					jQuery(".submit").click();
+				}          
+			})
+		// ]]>
+		</script>
+<span style="padding:0 0 2px 8px">快捷键：Ctrl+Enter</span>
+-->
+</form>
+
+<if condition = "$comment">
+<h3 class="comment_title">评论列表</h3>
+<div class="commentlist">
+
+<volist name="comment" id="vo" k="key">
+<div class="small-photo"><img src="../Public/images/avatar_small.gif" width="50" height="50"/></div>
+<div class="child_commentlist">
+    <i class="icon-arrow"></i>
+    <span class="author">{$vo.user}&nbsp;&nbsp;</span>
+    <span class="datetime">发表于：{$vo.fstcreate}</span>&nbsp;&nbsp;
+    <span class="replay"><a href="javascript:void(0)">回复</a></span>
+	<div class="comment">{$vo.comment|htmlspecialchars}</div>
+</div>
+</volist>
+</div>
+<div class="pagecut">{$pagecomment}</div>
+</if>
+</div>
+

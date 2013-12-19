@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>MiuCool后台登录</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style>
+body{font-size:12px;font-family:"微软雅黑";text-align:center;padding:0;}
+.loginform{ margin-left:auto; margin-right:auto;width:980px;dispaly:block;position:relative;}
+.logininfo{background:#0099CC;display:block;}
+#gbcode{width:90px;}
+img,#verifyImg{ vertical-align:middle; cursor:pointer;}
+input{ vertical-align:middle;}
+</style>
+<script language="javascript">
+$(function(){
+	var uname 		= $("#username");
+	var upwd  		= $("#userpwd");
+	var verifyimg 	= $("#verifyImg");
+	
+})
+function freshverify(){
+	document.getElementById('verifyImg').src='__URL__/verify/'+Math.random();  
+}
+</script>
+</head>
+<body>
+<form action="__URL__/checklogin" method="post" name="baseform">
+<div class="loginform">
+<!--容器层-->
+
+<div class="login">
+<!--登录标题-->
+<div class="logininfo"><h3>MiuCool登录</h3></div>
+
+<!--登录框-->
+<div class="loginadmin">
+
+<p>用户名：<input type="text" name="username"/></p>
+<p>密&nbsp;&nbsp; 码：<input type="text"  name="userpwd"/></p>
+<p>验证码：<input type="text" name="gbcode" id="gbcode" />&nbsp;
+<img src="__URL__/verify/"  id="verifyImg" title="换一个" onclick="freshverify()"/></p>
+<p><input type="submit" name="button" id="button" value="登录" /></p>
+
+</div>
+</div>
+
+</div>
+</form>
+</body>
+</html>

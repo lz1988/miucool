@@ -1,0 +1,2 @@
+<?php if (!defined('THINK_PATH')) exit();?><!--<h3 class="tit">关注我</h3>
+<iframe frameborder="0" scrolling="no" src="http://show.v.t.qq.com/index.php?c=show&a=index&n=z205817y&w=0&h=552&fl=2&l=30&o=31&co=0" width="100%" height="552"></iframe>-->

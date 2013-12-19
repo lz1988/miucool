@@ -1,0 +1,452 @@
+[ 2013-11-07T10:58:36+08:00 ] /?r=manage/left | INFO: Tag[ app_begin ] --START--
+[ 2013-11-07T10:58:36+08:00 ] /?r=manage/left | INFO: Run ReadHtmlCache Behavior [ RunTime:0.003934s ]
+[ 2013-11-07T10:58:36+08:00 ] /?r=manage/left | INFO: Tag[ app_begin ] --END-- [ RunTime:0.016444s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | SQL: SHOW COLUMNS FROM `indexmenu` [ RunTime:0.067515s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | SQL: SELECT * FROM `indexmenu` WHERE isdel=0 ORDER BY sort  [ RunTime:0.006010s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run LocationTemplate Behavior [ RunTime:0.003921s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --END-- [ RunTime:0.004034s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run ParseTemplate Behavior [ RunTime:0.028066s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --END-- [ RunTime:0.028223s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run ContentReplace Behavior [ RunTime:0.001437s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run TokenBuild Behavior [ RunTime:0.001418s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001219s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run ShowRuntime Behavior [ RunTime:0.001417s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005742s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | SQL: SHOW COLUMNS FROM `news` [ RunTime:0.035681s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | SQL: SELECT `id`,`newtitle`,`count` FROM `news` ORDER BY count LIMIT 10   [ RunTime:0.258418s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run LocationTemplate Behavior [ RunTime:0.000861s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --END-- [ RunTime:-0.329032s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run ParseTemplate Behavior [ RunTime:0.004642s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.301670s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run ContentReplace Behavior [ RunTime:0.000102s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run TokenBuild Behavior [ RunTime:0.000070s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run ShowRuntime Behavior [ RunTime:0.000120s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.300642s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run LocationTemplate Behavior [ RunTime:0.000810s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --END-- [ RunTime:-0.335294s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run ParseTemplate Behavior [ RunTime:0.002352s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.307867s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run ContentReplace Behavior [ RunTime:0.000088s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run TokenBuild Behavior [ RunTime:0.000071s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run ShowRuntime Behavior [ RunTime:0.000118s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.304574s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | SQL: SELECT `id`,`newtitle`,`fstcreate` FROM `news` ORDER BY id LIMIT 10   [ RunTime:0.023014s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | SQL: SELECT `id`,`newtitle`,`fstcreate`,`count` FROM `news` ORDER BY count,id LIMIT 10   [ RunTime:0.006584s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | SQL: SELECT news.id,count(comment.type) as counts,news.newtitle FROM `news` left join comment on comment.type=news.id WHERE comment.isdel=1 GROUP BY comment.type ORDER BY counts desc  [ RunTime:0.027698s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run LocationTemplate Behavior [ RunTime:0.000874s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --END-- [ RunTime:-0.397695s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run ParseTemplate Behavior [ RunTime:0.008785s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.370338s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run ContentReplace Behavior [ RunTime:0.000097s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run TokenBuild Behavior [ RunTime:0.000071s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run ShowRuntime Behavior [ RunTime:0.000122s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.373468s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | SQL: SHOW COLUMNS FROM `newtype` [ RunTime:0.040453s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | SQL: SELECT * FROM `newtype` WHERE isdel=0   [ RunTime:0.000885s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run LocationTemplate Behavior [ RunTime:0.001030s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --END-- [ RunTime:-0.450049s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run ParseTemplate Behavior [ RunTime:0.004405s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.422852s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run ContentReplace Behavior [ RunTime:0.000082s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run TokenBuild Behavior [ RunTime:0.000069s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run ShowRuntime Behavior [ RunTime:0.000117s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.421600s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | SQL: SELECT COUNT(*) AS tp_count FROM `news` join newtype on newtype.id=news.newtype LIMIT 1   [ RunTime:0.004961s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | SQL: SELECT news.id,news.newtitle,news.author,news.fstcreate,news.newcontent,`count`,`typename`,`entypename`,`newimg` FROM `news` join newtype on newtype.id=news.newtype ORDER BY id desc  LIMIT 0,32   [ RunTime:0.001950s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run LocationTemplate Behavior [ RunTime:0.000896s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --END-- [ RunTime:-0.464198s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run ParseTemplate Behavior [ RunTime:0.010330s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.436912s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run ContentReplace Behavior [ RunTime:0.000310s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run TokenBuild Behavior [ RunTime:0.000072s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run ShowRuntime Behavior [ RunTime:0.000152s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.441592s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run LocationTemplate Behavior [ RunTime:0.000929s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --END-- [ RunTime:-0.476496s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run ParseTemplate Behavior [ RunTime:0.004420s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.449193s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run ContentReplace Behavior [ RunTime:0.000145s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run TokenBuild Behavior [ RunTime:0.000094s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000022s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run ShowRuntime Behavior [ RunTime:0.000132s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.447960s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run LocationTemplate Behavior [ RunTime:0.007979s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --END-- [ RunTime:-0.483118s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run ParseTemplate Behavior [ RunTime:0.004801s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.462923s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run ContentReplace Behavior [ RunTime:0.001755s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run TokenBuild Behavior [ RunTime:0.000084s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000022s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run ShowRuntime Behavior [ RunTime:0.000170s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.462086s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_end ] --START--
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Run ShowPageTrace Behavior [ RunTime:0.001652s ]
+[ 2013-11-07T10:58:37+08:00 ] /?r=manage/left | INFO: Tag[ view_end ] --END-- [ RunTime:0.001732s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ app_begin ] --START--
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001390s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001505s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | SQL: SHOW COLUMNS FROM `indexmenu` [ RunTime:0.003113s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | SQL: SELECT * FROM `indexmenu` WHERE isdel=0 ORDER BY sort  [ RunTime:0.006351s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run LocationTemplate Behavior [ RunTime:0.003185s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --END-- [ RunTime:0.003281s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run ParseTemplate Behavior [ RunTime:0.021973s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --END-- [ RunTime:0.022073s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run ContentReplace Behavior [ RunTime:0.001705s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run TokenBuild Behavior [ RunTime:0.002431s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001080s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run ShowRuntime Behavior [ RunTime:0.001238s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006726s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | SQL: SHOW COLUMNS FROM `news` [ RunTime:0.003079s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | SQL: SELECT `id`,`newtitle`,`count` FROM `news` ORDER BY count LIMIT 10   [ RunTime:0.013746s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run LocationTemplate Behavior [ RunTime:0.001339s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --END-- [ RunTime:-0.046553s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run ParseTemplate Behavior [ RunTime:0.010577s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.025904s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run ContentReplace Behavior [ RunTime:0.000104s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run TokenBuild Behavior [ RunTime:0.000071s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000022s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run ShowRuntime Behavior [ RunTime:0.000125s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.029872s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run LocationTemplate Behavior [ RunTime:0.001367s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --END-- [ RunTime:-0.059316s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run ParseTemplate Behavior [ RunTime:0.002512s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.038656s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run ContentReplace Behavior [ RunTime:0.000086s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run TokenBuild Behavior [ RunTime:0.000070s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000022s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run ShowRuntime Behavior [ RunTime:0.000120s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.034774s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | SQL: SELECT `id`,`newtitle`,`fstcreate` FROM `news` ORDER BY id LIMIT 10   [ RunTime:0.000477s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | SQL: SELECT `id`,`newtitle`,`fstcreate`,`count` FROM `news` ORDER BY count,id LIMIT 10   [ RunTime:0.007670s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | SQL: SELECT news.id,count(comment.type) as counts,news.newtitle FROM `news` left join comment on comment.type=news.id WHERE comment.isdel=1 GROUP BY comment.type ORDER BY counts desc  [ RunTime:0.001467s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run LocationTemplate Behavior [ RunTime:0.004820s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --END-- [ RunTime:-0.074779s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run ParseTemplate Behavior [ RunTime:0.010816s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.057591s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run ContentReplace Behavior [ RunTime:0.000099s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run TokenBuild Behavior [ RunTime:0.000084s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run ShowRuntime Behavior [ RunTime:0.000122s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.061767s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | SQL: SHOW COLUMNS FROM `newtype` [ RunTime:0.002875s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | SQL: SELECT * FROM `newtype` WHERE isdel=0   [ RunTime:0.002705s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run LocationTemplate Behavior [ RunTime:0.001911s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --END-- [ RunTime:-0.097483s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run ParseTemplate Behavior [ RunTime:0.004449s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.077411s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run ContentReplace Behavior [ RunTime:0.000086s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run TokenBuild Behavior [ RunTime:0.000071s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run ShowRuntime Behavior [ RunTime:0.000127s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.075225s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | SQL: SELECT COUNT(*) AS tp_count FROM `news` join newtype on newtype.id=news.newtype LIMIT 1   [ RunTime:0.005423s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | SQL: SELECT news.id,news.newtitle,news.author,news.fstcreate,news.newcontent,`count`,`typename`,`entypename`,`newimg` FROM `news` join newtype on newtype.id=news.newtype ORDER BY id desc  LIMIT 0,32   [ RunTime:0.002207s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run LocationTemplate Behavior [ RunTime:0.001504s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --END-- [ RunTime:-0.114148s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run ParseTemplate Behavior [ RunTime:0.011320s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.093755s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run ContentReplace Behavior [ RunTime:0.000277s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run TokenBuild Behavior [ RunTime:0.000073s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run ShowRuntime Behavior [ RunTime:0.000229s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.098444s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run LocationTemplate Behavior [ RunTime:0.001351s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --END-- [ RunTime:-0.128229s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run ParseTemplate Behavior [ RunTime:0.004764s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.107562s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run ContentReplace Behavior [ RunTime:0.000098s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run TokenBuild Behavior [ RunTime:0.000112s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run ShowRuntime Behavior [ RunTime:0.000123s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.105693s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run LocationTemplate Behavior [ RunTime:0.000860s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_template ] --END-- [ RunTime:-0.135198s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run ParseTemplate Behavior [ RunTime:0.004658s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.114031s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run ContentReplace Behavior [ RunTime:0.000447s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run TokenBuild Behavior [ RunTime:0.000073s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000022s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run ShowRuntime Behavior [ RunTime:0.000185s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.112286s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_end ] --START--
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Run ShowPageTrace Behavior [ RunTime:0.005249s ]
+[ 2013-11-07T11:53:18+08:00 ] /?r=manage/left | INFO: Tag[ view_end ] --END-- [ RunTime:0.005347s ]
+[ 2013-11-07T18:05:00+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2013-11-07T18:05:00+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.059089s ]
+[ 2013-11-07T18:05:00+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.059250s ]
+[ 2013-11-07T18:05:00+08:00 ] / | SQL: SHOW COLUMNS FROM `indexmenu` [ RunTime:0.050948s ]
+[ 2013-11-07T18:05:00+08:00 ] / | SQL: SELECT * FROM `indexmenu` WHERE isdel=0 ORDER BY sort  [ RunTime:0.003666s ]
+[ 2013-11-07T18:05:00+08:00 ] / | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T18:05:00+08:00 ] / | INFO: Run LocationTemplate Behavior [ RunTime:0.096530s ]
+[ 2013-11-07T18:05:00+08:00 ] / | INFO: Tag[ view_template ] --END-- [ RunTime:0.096704s ]
+[ 2013-11-07T18:05:00+08:00 ] / | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T18:05:00+08:00 ] / | INFO: Run ParseTemplate Behavior [ RunTime:0.154601s ]
+[ 2013-11-07T18:05:00+08:00 ] / | INFO: Tag[ view_parse ] --END-- [ RunTime:0.154760s ]
+[ 2013-11-07T18:05:00+08:00 ] / | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T18:05:00+08:00 ] / | INFO: Run ContentReplace Behavior [ RunTime:0.033022s ]
+[ 2013-11-07T18:05:00+08:00 ] / | INFO: Run TokenBuild Behavior [ RunTime:0.043951s ]
+[ 2013-11-07T18:05:00+08:00 ] / | INFO: Run WriteHtmlCache Behavior [ RunTime:0.014723s ]
+[ 2013-11-07T18:05:00+08:00 ] / | INFO: Run ShowRuntime Behavior [ RunTime:0.003024s ]
+[ 2013-11-07T18:05:00+08:00 ] / | INFO: Tag[ view_filter ] --END-- [ RunTime:0.095140s ]
+[ 2013-11-07T18:05:00+08:00 ] / | SQL: SHOW COLUMNS FROM `news` [ RunTime:0.107854s ]
+[ 2013-11-07T18:05:03+08:00 ] / | SQL: SELECT `id`,`newtitle`,`count` FROM `news` ORDER BY count LIMIT 10   [ RunTime:2.222780s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run LocationTemplate Behavior [ RunTime:0.015852s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_template ] --END-- [ RunTime:-2.581974s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run ParseTemplate Behavior [ RunTime:0.020678s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_parse ] --END-- [ RunTime:-2.443054s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run ContentReplace Behavior [ RunTime:0.000133s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run TokenBuild Behavior [ RunTime:0.000071s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run ShowRuntime Behavior [ RunTime:0.000124s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_filter ] --END-- [ RunTime:-2.368650s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run LocationTemplate Behavior [ RunTime:0.001287s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_template ] --END-- [ RunTime:-2.619386s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run ParseTemplate Behavior [ RunTime:0.003075s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_parse ] --END-- [ RunTime:-2.465824s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run ContentReplace Behavior [ RunTime:0.000080s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run TokenBuild Behavior [ RunTime:0.000067s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run ShowRuntime Behavior [ RunTime:0.000115s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_filter ] --END-- [ RunTime:-2.373805s ]
+[ 2013-11-07T18:05:03+08:00 ] / | SQL: SELECT `id`,`newtitle`,`fstcreate` FROM `news` ORDER BY id LIMIT 10   [ RunTime:0.000493s ]
+[ 2013-11-07T18:05:03+08:00 ] / | SQL: SELECT `id`,`newtitle`,`fstcreate`,`count` FROM `news` ORDER BY count,id LIMIT 10   [ RunTime:0.006637s ]
+[ 2013-11-07T18:05:03+08:00 ] / | SQL: SELECT news.id,count(comment.type) as counts,news.newtitle FROM `news` left join comment on comment.type=news.id WHERE comment.isdel=1 GROUP BY comment.type ORDER BY counts desc  [ RunTime:0.100118s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run LocationTemplate Behavior [ RunTime:0.000928s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_template ] --END-- [ RunTime:-2.733392s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run ParseTemplate Behavior [ RunTime:0.038481s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_parse ] --END-- [ RunTime:-2.579485s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run ContentReplace Behavior [ RunTime:0.000105s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run TokenBuild Behavior [ RunTime:0.000069s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000020s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run ShowRuntime Behavior [ RunTime:0.000121s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_filter ] --END-- [ RunTime:-2.522969s ]
+[ 2013-11-07T18:05:03+08:00 ] / | SQL: SHOW COLUMNS FROM `newtype` [ RunTime:0.062767s ]
+[ 2013-11-07T18:05:03+08:00 ] / | SQL: SELECT * FROM `newtype` WHERE isdel=0   [ RunTime:0.009697s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run LocationTemplate Behavior [ RunTime:0.001080s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_template ] --END-- [ RunTime:-2.846809s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run ParseTemplate Behavior [ RunTime:0.005831s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_parse ] --END-- [ RunTime:-2.693052s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run ContentReplace Behavior [ RunTime:0.000092s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run TokenBuild Behavior [ RunTime:0.000070s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000022s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run ShowRuntime Behavior [ RunTime:0.000120s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_filter ] --END-- [ RunTime:-2.603809s ]
+[ 2013-11-07T18:05:03+08:00 ] / | SQL: SELECT COUNT(*) AS tp_count FROM `news` join newtype on newtype.id=news.newtype LIMIT 1   [ RunTime:0.009189s ]
+[ 2013-11-07T18:05:03+08:00 ] / | SQL: SELECT news.id,news.newtitle,news.author,news.fstcreate,news.newcontent,`count`,`typename`,`entypename`,`newimg` FROM `news` join newtype on newtype.id=news.newtype ORDER BY id desc  LIMIT 0,32   [ RunTime:0.001885s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run LocationTemplate Behavior [ RunTime:0.029725s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_template ] --END-- [ RunTime:-2.866772s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run ParseTemplate Behavior [ RunTime:0.052229s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_parse ] --END-- [ RunTime:-2.741733s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run ContentReplace Behavior [ RunTime:0.000342s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run TokenBuild Behavior [ RunTime:0.000083s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000023s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run ShowRuntime Behavior [ RunTime:0.000165s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_filter ] --END-- [ RunTime:-2.698897s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run LocationTemplate Behavior [ RunTime:0.001161s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_template ] --END-- [ RunTime:-2.949987s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run ParseTemplate Behavior [ RunTime:0.061117s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_parse ] --END-- [ RunTime:-2.796300s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run ContentReplace Behavior [ RunTime:0.000103s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run TokenBuild Behavior [ RunTime:0.000072s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000022s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run ShowRuntime Behavior [ RunTime:0.000122s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_filter ] --END-- [ RunTime:-2.762339s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run LocationTemplate Behavior [ RunTime:0.000975s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_template ] --END-- [ RunTime:-3.013071s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run ParseTemplate Behavior [ RunTime:0.020166s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_parse ] --END-- [ RunTime:-2.859195s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run ContentReplace Behavior [ RunTime:0.000317s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run TokenBuild Behavior [ RunTime:0.000072s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000022s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run ShowRuntime Behavior [ RunTime:0.000156s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_filter ] --END-- [ RunTime:-2.784312s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_end ] --START--
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Run ShowPageTrace Behavior [ RunTime:0.017668s ]
+[ 2013-11-07T18:05:03+08:00 ] / | INFO: Tag[ view_end ] --END-- [ RunTime:0.017760s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001223s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001345s ]
+[ 2013-11-07T18:13:12+08:00 ] / | SQL: SHOW COLUMNS FROM `indexmenu` [ RunTime:0.002164s ]
+[ 2013-11-07T18:13:12+08:00 ] / | SQL: SELECT * FROM `indexmenu` WHERE isdel=0 ORDER BY sort  [ RunTime:0.000645s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run LocationTemplate Behavior [ RunTime:0.002074s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_template ] --END-- [ RunTime:0.002167s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run ParseTemplate Behavior [ RunTime:0.019643s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_parse ] --END-- [ RunTime:0.019747s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run ContentReplace Behavior [ RunTime:0.001074s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run TokenBuild Behavior [ RunTime:0.000949s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000790s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run ShowRuntime Behavior [ RunTime:0.001022s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004034s ]
+[ 2013-11-07T18:13:12+08:00 ] / | SQL: SHOW COLUMNS FROM `news` [ RunTime:0.002372s ]
+[ 2013-11-07T18:13:12+08:00 ] / | SQL: SELECT `id`,`newtitle`,`count` FROM `news` ORDER BY count LIMIT 10   [ RunTime:0.007760s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run LocationTemplate Behavior [ RunTime:0.000897s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_template ] --END-- [ RunTime:-0.034882s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run ParseTemplate Behavior [ RunTime:0.004627s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.016095s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run ContentReplace Behavior [ RunTime:0.000101s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run TokenBuild Behavior [ RunTime:0.000072s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000020s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run ShowRuntime Behavior [ RunTime:0.000123s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.016771s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run LocationTemplate Behavior [ RunTime:0.000807s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_template ] --END-- [ RunTime:-0.041190s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run ParseTemplate Behavior [ RunTime:0.002142s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.022302s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run ContentReplace Behavior [ RunTime:0.000077s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run TokenBuild Behavior [ RunTime:0.000069s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000020s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run ShowRuntime Behavior [ RunTime:0.000112s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.020483s ]
+[ 2013-11-07T18:13:12+08:00 ] / | SQL: SELECT `id`,`newtitle`,`fstcreate` FROM `news` ORDER BY id LIMIT 10   [ RunTime:0.000433s ]
+[ 2013-11-07T18:13:12+08:00 ] / | SQL: SELECT `id`,`newtitle`,`fstcreate`,`count` FROM `news` ORDER BY count,id LIMIT 10   [ RunTime:0.006589s ]
+[ 2013-11-07T18:13:12+08:00 ] / | SQL: SELECT news.id,count(comment.type) as counts,news.newtitle FROM `news` left join comment on comment.type=news.id WHERE comment.isdel=1 GROUP BY comment.type ORDER BY counts desc  [ RunTime:0.000453s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run LocationTemplate Behavior [ RunTime:0.000902s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_template ] --END-- [ RunTime:-0.053222s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run ParseTemplate Behavior [ RunTime:0.008183s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.034434s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run ContentReplace Behavior [ RunTime:0.000108s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run TokenBuild Behavior [ RunTime:0.000071s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run ShowRuntime Behavior [ RunTime:0.000122s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.038664s ]
+[ 2013-11-07T18:13:12+08:00 ] / | SQL: SHOW COLUMNS FROM `newtype` [ RunTime:0.002307s ]
+[ 2013-11-07T18:13:12+08:00 ] / | SQL: SELECT * FROM `newtype` WHERE isdel=0   [ RunTime:0.000717s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run LocationTemplate Behavior [ RunTime:0.000938s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_template ] --END-- [ RunTime:-0.066802s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run ParseTemplate Behavior [ RunTime:0.004326s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.048086s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run ContentReplace Behavior [ RunTime:0.000113s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run TokenBuild Behavior [ RunTime:0.000071s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000021s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run ShowRuntime Behavior [ RunTime:0.000120s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.048470s ]
+[ 2013-11-07T18:13:12+08:00 ] / | SQL: SELECT COUNT(*) AS tp_count FROM `news` join newtype on newtype.id=news.newtype LIMIT 1   [ RunTime:0.004662s ]
+[ 2013-11-07T18:13:12+08:00 ] / | SQL: SELECT news.id,news.newtitle,news.author,news.fstcreate,news.newcontent,`count`,`typename`,`entypename`,`newimg` FROM `news` join newtype on newtype.id=news.newtype ORDER BY id desc  LIMIT 0,32   [ RunTime:0.001591s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run LocationTemplate Behavior [ RunTime:0.000904s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_template ] --END-- [ RunTime:-0.080257s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run ParseTemplate Behavior [ RunTime:0.010367s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.061537s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run ContentReplace Behavior [ RunTime:0.000301s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run TokenBuild Behavior [ RunTime:0.000072s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000023s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run ShowRuntime Behavior [ RunTime:0.000154s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.067965s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run LocationTemplate Behavior [ RunTime:0.000838s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_template ] --END-- [ RunTime:-0.092627s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run ParseTemplate Behavior [ RunTime:0.005368s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.073762s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run ContentReplace Behavior [ RunTime:0.000095s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run TokenBuild Behavior [ RunTime:0.000128s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000024s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run ShowRuntime Behavior [ RunTime:0.000154s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.075174s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_template ] --START--
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run LocationTemplate Behavior [ RunTime:0.001039s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_template ] --END-- [ RunTime:-0.099843s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_parse ] --START--
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run ParseTemplate Behavior [ RunTime:0.004199s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_parse ] --END-- [ RunTime:-0.081222s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_filter ] --START--
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run ContentReplace Behavior [ RunTime:0.000316s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run TokenBuild Behavior [ RunTime:0.000070s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000022s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run ShowRuntime Behavior [ RunTime:0.000157s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_filter ] --END-- [ RunTime:-0.081483s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_end ] --START--
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Run ShowPageTrace Behavior [ RunTime:0.001634s ]
+[ 2013-11-07T18:13:12+08:00 ] / | INFO: Tag[ view_end ] --END-- [ RunTime:0.001696s ]

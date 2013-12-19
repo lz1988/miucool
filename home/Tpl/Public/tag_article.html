@@ -1,0 +1,21 @@
+<div class="tabs-line">
+				<span><b class="icon1">最新文章</b></span>
+				<span class="current"><b class="icon2">随机文章</b></span>
+				<span style="border-right:none"><b class="icon3">回复最多</b></span>
+</div>
+<ul class="random-article tab-con" style="display: none; ">
+<volist name="newdatalist" id="vo" k="key">
+    <li><b class="num-{++$key}">{$key}</b><span class="last-time">{$vo.fstcreate|strtotime|date="m/d",###}</span><a href="{:U("/view/$vo[id]")}">{$vo.newtitle}</a></li>
+    </volist>
+</ul>
+<ul class="random-article tab-con" style="display: block; ">
+<volist name="hotdatalist" id="vo" k="key">
+    <li><b class="num-{++$key}">{$key}</b><a href="{:U("/view/$vo[id]")}">{$vo.newtitle}</a></li>
+    </volist>
+</ul>
+
+<ul class="hot-article tab-con" style="display: none; ">
+<volist name="replaydata" id="vo" k="key">
+    <li><b class="num-{++$key}">{$key}</b><span>({$vo.counts})</span><a href="{:U("/view/$vo[id]")}">{$vo.newtitle}</a></li>
+  </volist> 
+</ul>
