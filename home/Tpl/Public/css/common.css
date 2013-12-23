@@ -15,9 +15,6 @@ body{
 	background:url(../images/body_bg.png);
 	color: #666;
 }
-ul li, ol li {
-	line-height: 2.1em;
-}
 .head_top_wrap a{color:#555;}
 .head_top_article {float:left;padding-left:120px;font-size:1.2em; }
 .head_top_user  {float:right;padding-right:120px;font-size:1.2em;}
@@ -31,9 +28,8 @@ ul li, ol li {
 	color: #fff;
 	text-decoration:none;
 	border-bottom: none;
-	background:#FF9999;
+	background:#25E300;
 }
-
 .head_top_article ul li:first-child {
 	padding-left: 0;
 	background: none;
@@ -41,7 +37,6 @@ ul li, ol li {
 .head_top_user ul li a {
 	padding: 4px 8px;
 	color: #BBB;
-	min-height:30xp;
 	border: solid 2px transparent;
 }
 
