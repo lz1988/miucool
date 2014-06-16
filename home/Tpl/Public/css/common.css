@@ -133,18 +133,16 @@ a:hover, a:active { outline: 0; }
 	padding: 5px;
 	color: #666;
 }
-
-
 /*底部样式*/
 #tag_footer{
 	background-color:#33363B;
 	overflow: hidden;
 	margin:0 auto;
 	clear:both;
-	width:1000px;
 }
 #tag_footer a{color: #bbb;}
 #tag_footer a:hover{color: #eee;}
+
 
 /*分页样式*/
 .pagecut{
@@ -220,3 +218,6 @@ a:hover, a:active { outline: 0; }
 	border-color: #E3E3E3 #E3E3E3 #D6D6D6;
 	padding: 3px 0;
 }
+
+
+

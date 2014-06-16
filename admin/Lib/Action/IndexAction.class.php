@@ -1,7 +1,6 @@
 <?php
-// 本类由系统自动生成，仅供测试用途
 class IndexAction extends Action {
-     public function index(){
+    public function index(){
         $this->display('login');
     }
 	
@@ -39,9 +38,9 @@ class IndexAction extends Action {
 		}
 		//验证码
 		//echo $_SESSION['verify']."<br>".md5($_POST['gbcode']);
-		if($_SESSION['verify'] != md5($_POST['gbcode'])) {
+		/*if($_SESSION['verify'] != md5($_POST['gbcode'])) {
   		  $this->error('验证码错误！');
-		}
+		}*/
 		
 		if ($username == $result[0]['UserName'] && $userpwd == $result[0]['UserPwd']){
 			$expire = time() + 24*3600;
@@ -73,7 +72,7 @@ class IndexAction extends Action {
 				$id=$val['menuname'];
 				$res[$id][]=$val;
 		}
-//echo'<pre>';		print_r($res);
+
 		$this->assign('res', $res);
 		$this->display('left');
 	}
@@ -90,6 +89,5 @@ class IndexAction extends Action {
 		//echo '<script  type="text/javascript" charset="UTF-8">alert("成功退出");window.parent.location.href="'.__URL__.'/index"</script>';
 		//exit;
 	}
-	
 }
 ?>

@@ -109,6 +109,8 @@ input, textarea {
 }
 #comment{
 	margin-left:12px;
+    margin-top:30px;
+    max-height:310px;
 }
 input[type="button"], input[type="submit"], input[type="reset"],input[type="input"] {
 	-webkit-appearance: push-button;
@@ -183,7 +185,7 @@ i{
 	width: 13px;
 	height: 14px;
 	top: 15px;
-	background: url(../Public/images/comment-arrow.png) no-repeat;
+	background: url(__ROOT__/static/images/comment-arrow.png) no-repeat;
 }
 .commentlist .small-photo{
 	display: block;
@@ -216,7 +218,6 @@ i{
 
 <div id="comment">
 <h3 class="comment_title">我要说</h3>
-<div id="result"></div>
 <div id="msg"></div>
 
 <form method="post" action="__URL__/savecomment" name="baseform" id="commentform">
@@ -236,9 +237,10 @@ i{
   <p>
     <input type="submit"  id="submit"class="submit"name="submit"tabindex="5" value="提交评论"/>
     <input type="reset"class="reset" id="reset" name="reset" tabindex="6" value="重写"/>
+    <span id="result"></span>
     <input type="hidden" name="type" id="type" value="<?php echo ($pid); ?>"/>
-    
     </p>
+    <!--<div id="result"></div>-->
 
    <!-- <script type="text/javascript">	//Crel+Enter
 	
@@ -259,7 +261,7 @@ i{
 <?php if($comment): ?><h3 class="comment_title">评论列表</h3>
 <div class="commentlist">
 
-<?php if(is_array($comment)): $i = 0; $__LIST__ = $comment;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="small-photo"><img src="../Public/images/avatar_small.gif" width="50" height="50"/></div>
+<?php if(is_array($comment)): $i = 0; $__LIST__ = $comment;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="small-photo"><img src="__ROOT__/static/images/avatar_small.gif" width="50" height="50"/></div>
 <div class="child_commentlist">
     <i class="icon-arrow"></i>
     <span class="author"><?php echo ($vo["user"]); ?>&nbsp;&nbsp;</span>

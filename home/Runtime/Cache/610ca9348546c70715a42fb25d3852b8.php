@@ -2,52 +2,15 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>米库(miucool)最大的个人免费发布社区、发现生活点滴、分享生活乐趣、领悟生活文化、爱生活、爱分享、爱米库</title>
-<meta name="keywords"content="米库(miucool)：分享音乐、分享电影、分享美食、分享读书、分享运动、生活点滴。" />
-<meta name="description"content="米库(miucool)最大的个人免费发布社区，米库内容丰富多元、涵盖音乐、电影、旅行、美食、运动、读书、等热门主题，真正为用户提供免费分享生活平台。" />
+<title><?php echo ($pagetitle); ?></title>
+<meta name="keywords"content="米库(miucool)个人生活分享平台：米库音乐、米库电影、米库美食、米库读书、米库运动、米库生活、发现生活点滴、分享生活乐趣、领悟生活文化。" />
+<meta name="description"content="米库(miucool)个人生活分享平台，米库涵盖生活中的音乐、电影、旅行、美食、运动、读书，真正为个人提供生活分享平台。" />
 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" href="../Public/css/common.css"/>
-<link rel="stylesheet" href="../Public/css/tb_article.css"/>
-<link rel="stylesheet" href="../Public/artDialog/skins/green.css"/>
-<script language="javascript" src="../Public/js/jquery.js?v=1"></script>
-<script language="javascript" src="../Public/js/default.js"></script>
-<script language="javascript" src="../Public/artDialog/artDialog.js"></script>
-
-<script language="javascript">
-	var login = function(){
-		/*var dialog = art.dialog({id: 'N3690',title: false}); 
-		$.ajax({
-			url: '/home/Tpl/Login/login.html',
-			success: function (data) {
-				dialog.content(data);
-			},
-			cache: false
-		});*/
-		art.dialog({
-			width:300,
-			height:100,
-			id: 'shake-demo',
-			title: '用户登陆',
-			content: '帐号：<input type="text" value="" /><br />'
-				+ '密码：<input id="login-pw" type="text" value="" />',
-			lock: true,
-			fixed: true,
-			ok: function () {
-				var pw = document.getElementById('login-pw');
-				//pw.select();
-				//pw.focus();
-				//return false;
-				location.href = '<?php echo U("/Login");?>';
-			},
-			okValue: '提交',
-			cancelValue:'取消',
-			cancel: function () {
-				//alert('取消注册');
-			}
-		});
-	}
-</script>
-
+<link rel="stylesheet" href="__ROOT__/static/css/common.css?v=2014"/>
+<link rel="stylesheet" href="__ROOT__/static/css/tb_article.css?v=2014"/>
+<link rel="stylesheet" href="__ROOT__/static/artDialog/skins/green.css?v=2014"/>
+<script language="javascript" src="__ROOT__/static/js/jquery.js?v=2014"></script>
+<script language="javascript" src="__ROOT__/static/js/default.js?v=2014"></script>
 </head>
 <body>
 <!--加载头部导航-->

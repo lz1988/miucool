@@ -10,13 +10,14 @@ h1 {
 }
 img{ cursor:pointer;vertical-align:middle;margin-left:5px; }
 .login{
-	margin-top: 13px;
-	margin-left: 75px;
-	position: relative;
-	margin-bottom:30px;
-	width: 620px;
-	height:300px;
-	padding:10px;
+    margin-top: 50px;
+    margin-left: 75px;
+    position: relative;
+    margin-bottom:10px;
+    width: 620px;
+    min-height:100%;
+    height:440px;
+    padding:10px;
 }
 .login_user span{
 	font-size: 14px;

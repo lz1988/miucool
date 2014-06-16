@@ -29,8 +29,7 @@ class NewAction extends Action{
 		$this->assign('add','<input type="submit" value="新增" name="submit"');
 		$this->display("addnewtype");
 	}
-	
-	
+
 	//新增文章类别操作
 	public function addnewtypemod(){
 		$m = M("newtype");
@@ -60,8 +59,8 @@ class NewAction extends Action{
 		//设置上传文件类型
 		$upload->allowExts = explode(',',"jpg,gif,jpeg,png");
 		//设置附近上传目录
-		$upload->savePath = "./Tpl/Public/pic/"; //注意 目录为入口文件的相对路径
-		$thumbPath ='./Tpl/Public/thumbpath/';//缩略图的路径
+		$upload->savePath = "../static/pic/"; //注意 目录为入口文件的相对路径
+		$thumbPath ='../static/thumbpath/';//缩略图的路径
 		$upload->thumbPath = $thumbPath;
 		//设置需要生成缩略图他，仅对图片文件有效
 		$upload->thumb = true;
@@ -71,11 +70,12 @@ class NewAction extends Action{
 		//设置需要生成缩略图他的文件后缀
 		$upload->thumbPrefix ='m_,s_'; //生成2张缩略图
 		//设置缩略图最大宽度
-		$upload->thumbMaxWidth = '400,145';
+		$upload->thumbMaxWidth = '300,150';
 		//设置缩略图最大高度
-		$upload->thumbMaxHeight = '400,105';
+		$upload->thumbMaxHeight = '300,150';
 		//设置上传文件规则
-		$upload->saveRule = uniqid;
+		//$upload->saveRule = uniqid;
+         $upload->saveRule = time();
 		//删除原图
 		$upload->thumbRemoveOrigin = true;
 		if(!$upload->upload()){
@@ -85,7 +85,7 @@ class NewAction extends Action{
 			//取得成功上传文件信息
 			$info   = $upload->getUploadFileInfo();
 			return $info;
-			//print_r($info);
+			//print_r($info);die();
 		}
 	  
 	 }
@@ -100,10 +100,11 @@ class NewAction extends Action{
 		$where['newremark'] 	= $_POST['newremark'];
 		$where['newtype']		= $_POST['newtype'];
 		$where['author']		= $_POST['author'];
-		$where['newimg']		= $info[0]['savename'];
+		$where['mnewimg']		= "m_".$info[0]['savename'];
+        $where['snewimg']       = "s_".$info[0]['savename'];
 
 		$result = $m->add($where);
-		//echo $m->getLastSql();
+		//echo $m->getLastSql();die();
 		if ($result !== false)
 			$this->success("操作成功！");
 		else
@@ -126,9 +127,9 @@ class NewAction extends Action{
 		$m = M("newtype");
 		$m->id			= $_POST['id'];
 		$m->typename 	= $_POST['typename'];
-		$m->isdel		= $_POST['isdel'];	
+		$m->isdel		= $_POST['isdel'];
 		$result = $m->save();
-		//echo $m->getLastSql();
+		//echo $m->getLastSql();die();
 		if ($result !== false)
 			$this->success("操作成功！");
 		else
@@ -185,6 +186,10 @@ class NewAction extends Action{
 	
 	//文章修改
 	function neweditmod(){
+        //print_r($_FILES['photo']['name']);DIE();
+        if(!empty($_FILES['photo']['name'])){
+            $info = $this->_upload();
+        }
 		$m = M("news");
 		$where['newtitle'] 		= $_POST['newtitle'];
 		$where['newcontent']	= stripslashes($_POST['newcontent']);
@@ -192,9 +197,13 @@ class NewAction extends Action{
 		$where['newtype']		= $_POST['newtype'];
 		$where['author']		= $_POST['author'];
 		$where['id']			= $_POST['id'];
+		if (!empty($_FILES['photo']['name'])){
+        	$where['mnewimg']		= "m_".$info[0]['savename'];
+        	$where['snewimg']       = "s_".$info[0]['savename'];
+		}
 		
 		$result = $m->save($where);
-		//echo $m->getLastSql();
+		//echo $m->getLastSql();die();
 		if (!$result)
 			$this->error("操作失败！");
 		else
@@ -206,8 +215,6 @@ class NewAction extends Action{
 		$m = M("news");
 		$condition['id'] = $_POST['id'];
 		echo $m->where($condition)->delete();
-			
-			
 	}
 }
 ?>

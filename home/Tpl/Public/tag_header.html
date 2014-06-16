@@ -1,6 +1,4 @@
-<style>
-.miu-title{float:left;margin-left:40px;}
-</style>
+
 <a name="gotop"></a>
 <!--header_top-->
 <div class="head_top_wrap">
@@ -16,12 +14,11 @@
 <div class="head_top_user">
 <ul id="userinfo">
 <if condition = "$_COOKIE['uname'] neq null">
-<li>欢迎你 <a href="{:U("/Userinfo")}"> {$_COOKIE['uname']}</a>&nbsp;(<a href="{:U("/Login/loginout")}">退出</a>)</li> 
+<li>欢迎你 <a href=""> {$_COOKIE['uname']}</a>&nbsp;<a href="{:U("/Login/loginout")}">退出</a></li>
 <else/>
 <li><a href="{:U("/login")}" >登陆</a></li>
 </if>
 <li><a href="{:U("/register")}">注册</a></li>
 </ul>
 </div>
-
 </div>

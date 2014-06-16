@@ -1,63 +1,13 @@
-<style>
-.miulist{float:left;width:218px;overflow:hidden;border:#EEEEEE solid 1px;margin:5px 0px 0px 19px;}
-span,h1{
-	word-wrap: break-word;
-	display: block;
-	font-size: 20px;
-	color: #494949;
-	margin: 0;
-	padding: 0 0 22px 0;
-	line-height: 1.1;
-}
-.item-pic{
-	margin-bottom: 15px;
-	text-align: center;
-	max-height: 255px;
-	overflow: hidden;
-}
-.item-pic img {
-	border-radius: 30px;
-	-webkit-transition: all 0.8s ease-out;
-	-moz-transition: all 0.8s ease-out;
-	transition: all 0.8s ease-out;
-}
 
-.item-pic img:hover {
-	transform: rotateZ(360deg);
-	-webkit-transform: rotateZ(360deg);
-	-moz-transform: rotateZ(360deg);
-	}
-.item-title{
-	height:auto;
-	margin: 0 0 5px 0;
-	color: #666;
-	line-height: 1.4;
-	text-align:left;
-}
-.item-author{
-	max-height: 60px;
-	line-height: 1.5;
-	overflow: hidden;
-	margin: 0 0 10px 0;
-	text-align:left;
-}
-</style>
 <div class="home">
 <div class="miu"></div>
-
 <div class="cool">
 <span>这里正在分享……</span>
-
-
 <volist name="maindata" id="vo">
-<div class="miulist">
-<div class="item-pic">
-<a href="{:U("/view/$vo[id]")}" target="_blank"><img src="../Public/pic/{$vo.newimg}" title="{$vo.newtitle}" width="220"  height="250"alt=""></a></div>
+<div class="miulist"><div class="item-pic"><a href="{:U("/view/$vo[id]")}" target="_blank"><img src="__ROOT__/static/thumbpath/{$vo.mnewimg}" title="{$vo.newtitle}" width="220"  height="250"alt=""></a></div>
 <div class="item-title"><a href="{:U("/view/$vo[id]")}" target="_blank" title="{$vo.newtitle}">{$vo.newtitle}</a></div>
-<div class="item-author">分享者：{$vo.author}</div>
-</div>
+<div class="item-author">分享者：{$vo.author}</div></div>
 </volist>
-
 </div>
 </div>
 

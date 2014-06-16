@@ -12,7 +12,6 @@ class ShowAction extends Action{
 		
 		$type		= M("newtype");
 		$artype		= $type	->where('isdel=0 ')-> select();
-		//echo $type->getLastSql();
 		$this->assign('artype', $artype);
 		$newtype	= $this->fetch('Public:tag_newtype');
 		$this->assign('newtype', $newtype);
@@ -64,5 +63,10 @@ class ShowAction extends Action{
 		//echo $m->getLastSql();
 		if ($data) echo '1' ;else echo '0';
 	}
+	
+	/*function _empty(){
+		header("HTTP/1.0 404 Not Found");//使HTTP返回404状态码
+		$this->display("Public:404");
+	}*/
 }
 ?>

@@ -26,7 +26,7 @@ $(document).ready(function(){
 </head>
 
 <body>
-<form action="__URL__/neweditmod" name="baseform" method="post">
+<form action="__URL__/neweditmod" name="baseform" method="post" enctype="multipart/form-data">
 <div id="breadcrumb"><p><?php echo ($breadcrumb); ?></p></div>
 <div id="datalist">
 
@@ -55,6 +55,12 @@ $(document).ready(function(){
   <td><label>
     <input type="text" name="newremark"  value="<?php echo ($data["newremark"]); ?>"id="newremark" />
   </label></td>
+</tr>
+<tr>
+  <td>图片</td>
+  <td>
+   <input type="file"  name="photo" >
+  </td>
 </tr>
 <tr>
   <td>文章内容</td>

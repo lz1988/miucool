@@ -1,6 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?><style>
-.miu-title{float:left;margin-left:40px;}
-</style>
+<?php if (!defined('THINK_PATH')) exit();?>
 <a name="gotop"></a>
 <!--header_top-->
 <div class="head_top_wrap">
@@ -13,11 +11,10 @@
 <div class="miu-title">爱生活、爱分享、爱米库-MiuCool</div>
 <div class="head_top_user">
 <ul id="userinfo">
-<?php if($_COOKIE['uname'] != null): ?><li>欢迎你 <a href="<?php echo U("/Userinfo");?>"> <?php echo ($_COOKIE['uname']); ?></a>&nbsp;(<a href="<?php echo U("/Login/loginout");?>">退出</a>)</li> 
+<?php if($_COOKIE['uname'] != null): ?><li>欢迎你 <a href=""> <?php echo ($_COOKIE['uname']); ?></a>&nbsp;<a href="<?php echo U("/Login/loginout");?>">退出</a></li>
 <?php else: ?>
 <li><a href="<?php echo U("/login");?>" >登陆</a></li><?php endif; ?>
 <li><a href="<?php echo U("/register");?>">注册</a></li>
 </ul>
 </div>
-
 </div>

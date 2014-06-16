@@ -16,6 +16,7 @@ class ArticleAction extends Action{
 		$datamenu = getindexmenu();
 		
 		$this->assign('data',$datamenu);
+		
 		$tag_header = $this->fetch('Public:tag_header'); 
 		$this->assign('tag_header',$tag_header);
 		
@@ -59,7 +60,7 @@ class ArticleAction extends Action{
 		$nowPage = isset($_GET['p'])?$_GET['p']:1;
 
 		$pagelist	= $page->show();
-		$maindata	=	$new->where($where)->join('join newtype on newtype.id=news.newtype')->field('news.id,news.newtitle,news.author,news.fstcreate,news.newcontent,count,typename,entypename,newimg')->limit($page->firstRow.','.$page->listRows)->order('id desc ')->select();
+		$maindata	=	$new->where($where)->join('join newtype on newtype.id=news.newtype')->field('news.id,news.newtitle,news.author,news.fstcreate,news.newcontent,count,typename,entypename,snewimg')->limit($page->firstRow.','.$page->listRows)->order('id desc ')->select();
 		//echo $new->getLastSql();
 		/*$page->setConfig('header', '条数据');//共有多少条数据
 		$page->setConfig('prev', "<");//上一页
@@ -72,8 +73,8 @@ class ArticleAction extends Action{
 		$maincontent	=	$this->fetch('Public:tag_main');
 		$this->assign('main',$maincontent);
 		
-		
-		
+	
+		$this->assign("pagetitle","米库".$maindata[0]['typename']."-个人生活分享平台");
 		$tag_footer = $this->fetch('Public:tag_footer');
 		$this->assign('tag_footer', $tag_footer);
 		$this->display();

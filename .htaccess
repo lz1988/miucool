@@ -1,10 +1,8 @@
-﻿<IfModule mod_rewrite.c>
+<IfModule mod_rewrite.c>
 RewriteEngine on
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 
 RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]
-#RewriteRule ^page\/(\d+).html$ index.php?page=$1
-#RewriteRule ^po\/(\d+)\/page\/(\d+).html$ write.php?po=$1&page=$2
 </IfModule>

@@ -14,7 +14,7 @@ class IndexAction extends Action{
 		
 		
 		$this->assign('data',$datamenu);
-		$tag_header = $this->fetch('Public:tag_header'); 
+		$tag_header = $this->fetch('Public:tag_header');
 		$this->assign('tag_header',$tag_header);
 		
 		//获取浏览最多文章
@@ -55,7 +55,7 @@ class IndexAction extends Action{
 		$nowPage = isset($_GET['p'])?$_GET['p']:1;
 
 		$pagelist	= $page->show();
-		$maindata	=	$new->join('join newtype on newtype.id=news.newtype')->field('news.id,news.newtitle,news.author,news.fstcreate,news.newcontent,count,typename,entypename,newimg')->limit($page->firstRow.','.$page->listRows)->order('id desc ')->select();
+		$maindata	=	$new->join('join newtype on newtype.id=news.newtype')->field('news.id,news.newtitle,news.author,news.fstcreate,news.newcontent,count,typename,entypename,mnewimg')->limit($page->firstRow.','.$page->listRows)->order('id desc ')->select();
 		$this->assign('maindata', $maindata);
 		$this->assign('pagelist',$pagelist);
 		$this->assign('bread','><a href="__APP__/index">首页</a>');

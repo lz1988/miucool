@@ -1,5 +1,4 @@
 <?php
-
 class ViewAction extends Action{
 	function index(){
 		import("ORG.Util.Page");
@@ -30,9 +29,12 @@ class ViewAction extends Action{
 		$newtype	= $this->fetch('Public:tag_newtype');
 		$this->assign('newtype', $newtype);
 		
-		$id			= $_GET['id'];
+		$id			= intval($_GET['id']);
 		$where['news.id']	= $id;
 		$new 		= M("news");
+		$ret_getone = $new->where($where)->find();
+		if (!$ret_getone) header("location:http://www.miucool.com");
+		
 		//$maindata	=	$new->join('join newtype on news.newtype=newtype.id')->field('news.id,news.fstcreate,author,newcontent,typename')->select();
 		$count 		= $new->where($where)->count();
 		$page 		= new Page($count,15);
@@ -78,7 +80,7 @@ class ViewAction extends Action{
 		$this->assign('main',$maincontent);
 		
 		//文章title	
-		$this->assign('title', $maindata[0]['newtitle']);
+		$this->assign('title',$maindata[0]['newtitle']);
 		
 	
 		//
@@ -93,17 +95,23 @@ class ViewAction extends Action{
 	public function savecomment(){
 		$m = M("comment");
 		$vo['userid'] 	= $_COOKIE['uid']?$_COOKIE['uid']:0;
-		$vo['isdel']  	= $_COOKIE['uid']?'1':'0';
-		$vo['comment'] 	= $_POST['comment'];
+		$vo['isdel']  	= $_COOKIE['uid']?'1':'1';
+		$vo['comment'] 	= htmlspecialchars(addslashes($_POST['comment']));
 		$vo['type']  	= $_POST['type'];
 		$vo['email'] 	= $_POST['email'];
-		$vo['user']  	= $_COOKIE['uname']?$_COOKIE['uname']:'游客';		
+		//$vo['user']  	= $_COOKIE['uname']?$_COOKIE['uname']:'游客'.substr(session_id(),-8);
+		$vo['user'] 	= $_COOKIE['uname']?$_COOKIE['uname']:$_POST['user'];
 		if (false !== $m->add($vo)){
-			$this->ajaxReturn($vo,'提交成功、请耐心等待审核通过',1);    
+			$this->ajaxReturn($vo,'提交成功',1);
 		}else {
 			$this->ajaxReturn('',"操作失败",0);
 		}
-		
 	}
+	
+	/*function _empty(){
+		header("HTTP/1.0 404 Not Found");//使HTTP返回404状态码
+		$this->display("Public:404");
+	}*/
+
 }
 ?>
