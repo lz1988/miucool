@@ -6,13 +6,13 @@
 <meta name="keywords"content="米库(miucool)个人生活分享平台：米库音乐、米库电影、米库美食、米库读书、米库运动、米库生活、发现生活点滴、分享生活乐趣、领悟生活文化。" />
 <meta name="description"content="米库(miucool)个人生活分享平台，米库涵盖生活中的音乐、电影、旅行、美食、运动、读书，真正为个人提供生活分享平台。" />
 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" href="__ROOT__/static/css/common.css"/>
-<link rel="stylesheet" href="__ROOT__/static/css/dshare.css"/>
-<link rel="stylesheet" href="__ROOT__/static/css/tb_article.css"/>
-<script language="javascript" src="__ROOT__/static/js/jquery.js"></script>
-<script language="javascript" src="__ROOT__/static/js/jquery.form.js"></script>
-<script language="javascript" src="__ROOT__/static/js/default.js"></script>
-<script src="__ROOT__/static/js/view-history.js"></script>
+<link rel="stylesheet" href="__ROOT__/static/home/css/common.css"/>
+<link rel="stylesheet" href="__ROOT__/static/home/css/dshare.css"/>
+<link rel="stylesheet" href="__ROOT__/static/home/css/tb_article.css"/>
+<script language="javascript" src="__ROOT__/static/home/js/jquery.js"></script>
+<script language="javascript" src="__ROOT__/static/home/js/jquery.form.js"></script>
+<script language="javascript" src="__ROOT__/static/home/js/default.js"></script>
+<script src="__ROOT__/static/home/js/view-history.js"></script>
 <script>
 
 if(typeof localStorage !== 'undefined' && typeof JSON !== 'undefined') {
@@ -51,7 +51,7 @@ $(document).ready(function(){
 	
 	function checkcomment(){
 		var user = $("input[name='user']").val();
-		$("#result").css({'background':'url(__ROOT__/static/images/no.png) no-repeat 10px 0px'});
+		$("#result").css({'background':'url(__ROOT__/static/home/images/no.png) no-repeat 10px 0px'});
 		if ($.trim(user) == ''){
 			$("#result").html("昵称不能为空！").show();
 			$("#result").fadeOut(2000);
@@ -81,11 +81,11 @@ $(document).ready(function(){
 	
 	function complete(data){
 		if (data.status == 1){
-			$("#result").css({'background':'url(__ROOT__/static/images/yes.png) no-repeat 10px 0px'});
+			$("#result").css({'background':'url(__ROOT__/static/home/images/yes.png) no-repeat 10px 0px'});
 			$("#result").html(data.info).show();
 			setTimeout("self.location.reload();",1000);
 		}else{
-			$("#result").css({'background':'url(__ROOT__/static/images/no.png) no-repeat 10px 0px'});
+			$("#result").css({'background':'url(__ROOT__/static/home/images/no.png) no-repeat 10px 0px'});
 			$("#result").html(data.info).show();
 			$("#result").fadeOut(3000);
 		}
@@ -127,7 +127,7 @@ $(document).ready(function(){
 var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
 document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F322c20650793bcae617cdfcde1a6bbc7' type='text/javascript'%3E%3C/script%3E"));
 </script>
-<script src="__ROOT__/static/js/share.js"></script>
+<script src="__ROOT__/static/home/js/share.js"></script>
 <script>
 /*保存用户记录*/
 var wrap = document.getElementById('view-history');

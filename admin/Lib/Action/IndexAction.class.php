@@ -1,7 +1,7 @@
 <?php
 class IndexAction extends Action {
     public function index(){
-        $this->display('login');
+        $this->display('webadmin');
     }
 	
 	//生成数字和英文混合型的验证码
@@ -18,6 +18,7 @@ class IndexAction extends Action {
 	
 	/*登录验证*/
 	public function checklogin(){
+		
     	$username 	= $_POST['username'];
 		$userpwd 	= $_POST['userpwd'];
 		
@@ -38,9 +39,9 @@ class IndexAction extends Action {
 		}
 		//验证码
 		//echo $_SESSION['verify']."<br>".md5($_POST['gbcode']);
-		/*if($_SESSION['verify'] != md5($_POST['gbcode'])) {
+		if($_SESSION['verify'] != md5($_POST['gbcode'])) {
   		  $this->error('验证码错误！');
-		}*/
+		}
 		
 		if ($username == $result[0]['UserName'] && $userpwd == $result[0]['UserPwd']){
 			$expire = time() + 24*3600;
@@ -51,12 +52,15 @@ class IndexAction extends Action {
 			$add['uid'] = $result[0]['ID'];
 			$add['ip_address'] = get_onlineip();
 			if (!$log->add($add)){$this->error("写入日志失败！");}
-			
+			//print_r($_COOKIE['uname']);die();
 			$this->WebSite();
 			
 		}
 	}
 	
+	function xx(){
+		echo "ddddddd";
+	}
 	//头部文件
 	public function top(){
 		$this->assign('username',$_COOKIE['uname']);
@@ -79,7 +83,19 @@ class IndexAction extends Action {
 	
 	//整体框架
 	public function WebSite(){
-		$this->display('website');
+		//$this->display('website');
+		$m 			= M('menu');
+		$pagedata 	= $m->join('left join pagemenu on pagemenu.type = menu.id')->field('pagemenu.id,menu.menuname,pagemenu.pagename,pagemenu.type,pagemenu.pageurl')->select();
+		$res=array();
+		foreach($pagedata as $val){
+				$id=$val['menuname'];
+				$res[$id][]=$val;
+		}
+
+		$this->assign('res', $res);
+		//echo '<pre>';print_r($res);
+		//print_r($_COOKIE['uname']);die();
+		$this->display('index');
 	}
 	
 	//注销

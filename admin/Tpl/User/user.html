@@ -3,6 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>用户管理管理</title>
+<link rel="stylesheet" href="../Public/assets/css/bootstrap.min.css" type="text/css"/>
 <link rel="stylesheet" href="../Public/css/main.css"  type="text/css"/>
 <script language="javascript" src="../Public/js/jquery.js"></script>
 <script language="javascript" src="../Public/js/main.js"></script>
@@ -49,15 +50,15 @@ $(document).ready(function(){
     {$select}
 </div>
 <div id="datalist">
-<table width="800" border="1" cellpadding="6" cellspacing="6" id="tablelist">
+<table class="table table-bordered table-hover definewidth m10">
   <tr align="center">
-    <th width="72">编号</th>
-    <th width="124">用户名</th>
-    <th width="110">密码</th>
-    <th width="140">创建时间</th>
-    <th width="96">是否启用</th> 
-    <th width="132">是否是管理员</th>
-     <th width="80">操作</th>
+    <th>编号</th>
+    <th>用户名</th>
+    <th>密码</th>
+    <th>创建时间</th>
+    <th>是否启用</th> 
+    <th>是否是管理员</th>
+     <th>操作</th>
   </tr>
   <if condition = "$data">
   <volist name="data" id="vo">
