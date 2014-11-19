@@ -5,7 +5,7 @@ return array(
     'DB_HOST'            		=> '115.28.107.91',
     'DB_NAME'            		=> 'think_db',	    	// 数据库名
     'DB_USER'            		=> 'root',	    	// 数据库账号
-    'DB_PWD'             		=> '4bd824823d',	        // 数据库密码
+    'DB_PWD'             		=> '',	        // 数据库密码
     'DB_PORT'           		=> '3306',
     'DB_PREFIX'         		=> '',	    	// 表前缀
     'TOKEN_ON'           		=> false,	    	// 是否开启令牌验证
